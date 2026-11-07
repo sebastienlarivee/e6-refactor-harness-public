@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-08-28T01:33:26.862637+00:00",
+  "source": {
+    "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+    "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+    "row_sha256": "fa45a9db986de35bb6675701511739f5f26cc4f8280b35187d92383e64995368",
+    "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+  },
+  "reference": {
+    "heartbeat": 3858
+  },
+  "row": {
+    "name": "Cslib.CCS.bisimilarity_congr_choice",
+    "source": "cslib",
+    "statement": "theorem bisimilarity_congr_choice :\n    (p ~[lts (defs := defs)] q) → (choice p r) ~[lts (defs := defs)] (choice q r)",
+    "src": "theorem bisimilarity_congr_choice :\n    (p ~[lts (defs := defs)] q) → (choice p r) ~[lts (defs := defs)] (choice q r) := by\n  intro h\n  exists @ChoiceBisim _ _ defs\n  constructor\n  · constructor; assumption\n  intro s1 s2 r μ\n  constructor\n  case left =>\n    intro s1' htr\n    cases r\n    case choice p q r hbisim =>\n      obtain ⟨rel, hr, hb⟩ := hbisim\n      cases htr\n      case choiceL a b c htr =>\n        obtain ⟨s2', htr2, hr2⟩ := hb.follow_fst hr htr\n        exists s2'\n        constructor\n        · apply Tr.choiceL htr2\n        · constructor\n          apply hb.le_bisimilarity _ _ hr2\n      case choiceR a b c htr =>\n        exists s1'\n        constructor\n        · apply Tr.choiceR htr\n        · constructor\n          apply HomBisimilarity.refl\n    case bisim hbisim =>\n      obtain ⟨rel, hr, hb⟩ := hbisim\n      obtain ⟨s2', htr2, hr2⟩ := hb.follow_fst hr htr\n      exists s2'\n      constructor\n      · assumption\n      constructor\n      apply hb.le_bisimilarity _ _ hr2\n  case right =>\n    intro s2' htr\n    cases r\n    case choice p q r hbisim =>\n      obtain ⟨rel, hr, hb⟩ := hbisim\n      cases htr\n      case choiceL a b c htr =>\n        obtain ⟨s1', htr1, hr1⟩ := hb.follow_snd hr htr\n        exists s1'\n        constructor\n        · apply Tr.choiceL htr1\n        · constructor\n          apply hb.le_bisimilarity _ _ hr1\n      case choiceR a b c htr =>\n        exists s2'\n        constructor\n        · apply Tr.choiceR htr\n        · constructor\n          apply HomBisimilarity.refl\n    case bisim hbisim =>\n      obtain ⟨rel, hr, hb⟩ := hbisim\n      obtain ⟨s1', htr1, hr1⟩ := hb.follow_snd hr htr\n      exists s1'\n      constructor\n      · assumption\n      · constructor\n        apply hb.le_bisimilarity _ _ hr1",
+    "proof_length": 251,
+    "num_lines": 62,
+    "header": "",
+    "file_path": "Cslib/Languages/CCS/BehaviouralTheory.lean",
+    "url": "https://github.com/leanprover/cslib",
+    "start_line": 311,
+    "end_line": 372,
+    "version_info": [
+      {
+        "v4.33.0-rc2": "3aa9d4416c185e0b9faeb72bbd65abe85b95dbcc"
+      },
+      {
+        "v4.32.0": "197a7be621263b84c67ca4f803f69205b36d06df"
+      },
+      {
+        "v4.31.0": "8ea71c8df91acd63285515a04da952b23b78d266"
+      }
+    ],
+    "signature": "theorem bisimilarity_congr_choice :\n    (p ~[lts (defs := defs)] q) → (choice p r) ~[lts (defs := defs)] (choice q r)",
+    "contexts": []
+  },
+  "local_baselines": [
+    {
+      "environment_fingerprint": "69aa2be30898f2a323fea2a37116ce9733c5f8c37af3828e7c641cf4e037ad80",
+      "heartbeat": 3858,
+      "recorded_at": "2026-08-28T05:09:20.092586+00:00",
+      "lean_version": "Lean (version 4.33.0-rc2, x86_64-w64-windows-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+      "lake_manifest_sha256": "686ab3787d478345c7962db7eb76138cff7b9c9aa75941796c48a2b05a3a412d",
+      "instrumentation": "project-command-heartbeat-v1"
+    }
+  ]
+}

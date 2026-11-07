@@ -1,0 +1,9 @@
+{
+  "downloaded_at": "2026-11-01T10:48:03.368176+00:00",
+  "source_page": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena",
+  "download_url": "https://delta-lab-ai-lean-refactor-arena.hf.space/gradio_api/file=/tmp/gradio/61351c169109fe76e0434aa932fd9a10f498f01794e47ffd4c37947a5d7f9201/benchmark_data_final.jsonl",
+  "app_revision": "da5f65085398d1d0ca7838fd56da3a9ec778af42",
+  "sha256": "d53690b057f9972f44643678ee6b5eee7a66f56e1a7d2678a2e5ff47fadbd682",
+  "bytes": 502056,
+  "row_count": 60
+}

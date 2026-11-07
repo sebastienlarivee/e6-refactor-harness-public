@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "proofs": {
+    "st": {
+      "task_id": "Core.InitsUpdatesComm",
+      "task_sha256": "dca92ddd007374ff3493aaa1798452cf1bf9096b9b4114ec43328e68df7a4f69",
+      "original_tokens": 238,
+      "original_heartbeats": 4251,
+      "task": "tasks/Core_InitsUpdatesComm.json",
+      "published_reference_heartbeats": 4251,
+      "primary": "st/c1f9972a8c3a76c1/p",
+      "compatibility": [
+        "st/eeb4087c8029fef4/p",
+        "st/7aba52a2ccb0727d/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 4251,
+      "original_measurement_evidence": {
+        "path": "original-controls/st.json",
+        "sha256": "5a4c1e41cebbe56bf17986d851aeb8cdaa0b6381fa513bc52233c86104b580ce",
+        "historical_heartbeats": 4251,
+        "measured_heartbeats": 4251,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "st/c1f9972a8c3a76c1/p",
+          "guard_valid": true,
+          "task_id": "Core.InitsUpdatesComm",
+          "fingerprint": "3dfb75e63f7660fb688d7d7f10190b68595c673941a662e227f11aa480a79cb9",
+          "lean_version": "Lean (version 4.29.1, x86_64-unknown-linux-gnu, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)",
+          "guard_sha256": "f999141a7d4f94688b7e3a7930b2999d2e10bbf24bb5ea5c70fa94fe8b956911"
+        },
+        {
+          "role": "compatibility",
+          "path": "st/eeb4087c8029fef4/p",
+          "guard_valid": true,
+          "task_id": "Core.InitsUpdatesComm",
+          "fingerprint": "56aaf729b8f5900344dc3bdb91e94592d54cb6b2e2660cea03e7e2bd783cf020",
+          "lean_version": "Lean (version 4.27.0, x86_64-unknown-linux-gnu, commit db93fe1608548721853390a10cd40580fe7d22ae, Release)",
+          "guard_sha256": "6c757c7178b84d84f451178206c056fec3f746e708cc15a204ac8fe57e324c54"
+        },
+        {
+          "role": "compatibility",
+          "path": "st/7aba52a2ccb0727d/p",
+          "guard_valid": true,
+          "task_id": "Core.InitsUpdatesComm",
+          "fingerprint": "240f002f8a0a8e181d42afd3159cab69e86717b91810248f1ab5a4aa755eb46c",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+          "guard_sha256": "6ba3f933a7513198188f0707f63df64796e86d51608917c26c59dc845bf30683"
+        }
+      ]
+    },
+    "ph": {
+      "task_id": "FieldSpecification.WickAlgebra.ι_timeOrderF_superCommuteF_eq_time",
+      "task_sha256": "b94cd73aadf4cd296ddaafb515fe41cea51869b03d6ba7ccaffcc37cfc6b6da5",
+      "original_tokens": 1240,
+      "original_heartbeats": 42080,
+      "task": "tasks/FieldSpecification_WickAlgebra_ι_timeOrderF_superCommuteF_eq_time.json",
+      "published_reference_heartbeats": 42225,
+      "primary": "ph/dfc412a21b59b104/p",
+      "compatibility": [],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 42080,
+      "original_measurement_evidence": {
+        "path": "original-controls/ph.json",
+        "sha256": "b64ea7e51c43f095afd325abc09094fd3c04311d44a2d7de8041e8b550221c57",
+        "historical_heartbeats": 42080,
+        "measured_heartbeats": 42080,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "ph/dfc412a21b59b104/p",
+          "guard_valid": true,
+          "task_id": "FieldSpecification.WickAlgebra.ι_timeOrderF_superCommuteF_eq_time",
+          "fingerprint": "45ae279bc843be719770f9f57a76bba77d54d5eafa97ecbe862a5fa9c9767c18",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)\nwarning: manifest out of date: source kind (git/path) of dependency 'mathlib' changed; use `lake update mathlib` to update it",
+          "guard_sha256": "6b3fde881f1c43e9f3388dc0d26fc06f062faad67f7644c6b7e17b76a7a51cc1"
+        }
+      ]
+    },
+    "ar": {
+      "task_id": "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius",
+      "task_sha256": "0f1a612e40537b573ff9f8c9942efea1ab2071ad3fadd7947372169fec482cdf",
+      "original_tokens": 1424,
+      "original_heartbeats": 15646,
+      "task": "tasks/Binius_BinaryBasefold_fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius.json",
+      "published_reference_heartbeats": 15645,
+      "primary": "ar/6b20158c57e0ef29/p",
+      "compatibility": [
+        "ar/85115a7562ab2cb4/p",
+        "ar/44ad6d665ca1e8d4/p",
+        "ar/2ce7c63f97046660/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 15646,
+      "original_measurement_evidence": {
+        "path": "original-controls/ar.json",
+        "sha256": "bb48a4b9995fb9df445c8e7975addd7335bf1e0be22f8d4cffbcbec0298c18b7",
+        "historical_heartbeats": 15646,
+        "measured_heartbeats": 15646,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "ar/6b20158c57e0ef29/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius",
+          "fingerprint": "a28c08c7dc3e9304939885e88789177c1465fdcee76779e965659eb8b5fd00b1",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+          "guard_sha256": "f7fcc68f90c0409ec200addceb6d0ffe55320d0055cc10df3c0f221c9363b801"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/85115a7562ab2cb4/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius",
+          "fingerprint": "de4c61238f0fb394fbef5c38807774cb37e4bbce2bb2edc8dcc7bc4e795208ae",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)\nwarning: manifest out of date: git revision of dependency 'VCVio' changed; use `lake update VCVio` to update it",
+          "guard_sha256": "bab2c98dabc0f2cce9d287835ca22feba7cf95d329e11ee26c5b26a8b72bb4b1"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/44ad6d665ca1e8d4/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius",
+          "fingerprint": "4214bfe852da4df7c46e37779cdc33b0de55834421d36e8b7e7491f3e0f760d1",
+          "lean_version": "Lean (version 4.29.0, x86_64-unknown-linux-gnu, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740, Release)",
+          "guard_sha256": "ee2459e89c36195a8df05480daf6b2dd7d9e6461bac3c8407ef476234cc64d9a"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/2ce7c63f97046660/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius",
+          "fingerprint": "181b138fff9dd28bfcd73ed4a545b3bae3be9f5f2514cc6224436e5e7173b317",
+          "lean_version": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)",
+          "guard_sha256": "e0d4727d3243be90146afffa8406467171ed6d8e1bd26dd52dd17c4617e6437f"
+        }
+      ]
+    },
+    "pu": {
+      "task_id": "putnam_1964_a4",
+      "task_sha256": "dffdd9ef9a629ad2f7bb2f7f8b8902811b646950caf411f3e672cdcd9bdac659",
+      "original_tokens": 1837,
+      "original_heartbeats": 141101,
+      "task": "tasks/putnam_1964_a4.json",
+      "published_reference_heartbeats": 111476,
+      "primary": "pu/514e7fd05ae587b0/p",
+      "compatibility": [
+        "pu/677610cae71ee80b/p",
+        "pu/b76ff445249fc124/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 141101,
+      "original_measurement_evidence": {
+        "path": "original-controls/pu.json",
+        "sha256": "9af32f8ee49a8ba32a7250d430d5fbde2406939991b91e10b55e29025356cc84",
+        "historical_heartbeats": 141101,
+        "measured_heartbeats": 141101,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "pu/514e7fd05ae587b0/p",
+          "guard_valid": true,
+          "task_id": "putnam_1964_a4",
+          "fingerprint": "ff5b2034aba88b41d1f17735f3d02b08bc6a2039be3da7ab73c61ba6d7f26e05",
+          "lean_version": "Lean (version 4.25.0, x86_64-unknown-linux-gnu, commit cdd38ac5115bdeec5f609e9126cce00f51ae88b3, Release)",
+          "guard_sha256": "0e14c1df1b4fba6a8b6c46114debb3cf63225e80f803756ff31ccea3f834a235"
+        },
+        {
+          "role": "compatibility",
+          "path": "pu/677610cae71ee80b/p",
+          "guard_valid": true,
+          "task_id": "putnam_1964_a4",
+          "fingerprint": "7d37657b6ce1318b67f2f1ab03b4f053a587fedde27cc2ffe19e46df70af6000",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+          "guard_sha256": "a05c30e9e5ca14911df742fe5510783ada86344de70ec6ecec516dbcd1e0fc09"
+        },
+        {
+          "role": "compatibility",
+          "path": "pu/b76ff445249fc124/p",
+          "guard_valid": true,
+          "task_id": "putnam_1964_a4",
+          "fingerprint": "9cf27377a4c88a79532377812d34f939782f786489408003af38b4761141af56",
+          "lean_version": "Lean (version 4.27.0, x86_64-unknown-linux-gnu, commit db93fe1608548721853390a10cd40580fe7d22ae, Release)",
+          "guard_sha256": "a9f7f308949f83dea6e44b0c3f45be0701d0cc19b1500016c91f520984943abf"
+        }
+      ]
+    },
+    "st-subst": {
+      "task_id": "CallElimCorrect.substOldPostSubset",
+      "task_sha256": "f9d79ab0b767cd4a6f3e7bd369dbbe099a4bfb7964b1a3d9cd2412313becb75e",
+      "original_tokens": 343,
+      "original_heartbeats": 5174,
+      "task": "tasks/CallElimCorrect_substOldPostSubset.json",
+      "published_reference_heartbeats": 5175,
+      "primary": "st/7aba52a2ccb0727d/p",
+      "compatibility": [],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 5174,
+      "original_measurement_evidence": {
+        "path": "original-controls/st-subst.json",
+        "sha256": "504c0ed673b18541cd2781d07a88cd76e934e254171c04a129dba7b98777ecce",
+        "historical_heartbeats": 5174,
+        "measured_heartbeats": 5174,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "st/7aba52a2ccb0727d/p",
+          "guard_valid": true,
+          "task_id": "CallElimCorrect.substOldPostSubset",
+          "fingerprint": "bd3a0223d5e5795858d6c766507a4f247589cd10a69b6bfb0fe50279bdf7d467",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+          "guard_sha256": "5a529cd3335a6b1e91e3993c0a1e479b22dee9ea1c662b290a2d058ddea18aee"
+        }
+      ]
+    },
+    "st-vars": {
+      "task_id": "CallElimCorrect.extractedOldExprInVars",
+      "task_sha256": "f33a055f8b6bd96e9d83a0408b79d6b8f57a9b97845b130e3c767ac6846b08fe",
+      "original_tokens": 243,
+      "original_heartbeats": 2696,
+      "task": "tasks/CallElimCorrect_extractedOldExprInVars.json",
+      "published_reference_heartbeats": 2696,
+      "primary": "st/7aba52a2ccb0727d/p",
+      "compatibility": [],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 2696,
+      "original_measurement_evidence": {
+        "path": "original-controls/st-vars.json",
+        "sha256": "78909944add291a902e79935cac61fd0bcfa7d315a6bd53dd0d9b73f16df21ae",
+        "historical_heartbeats": 2696,
+        "measured_heartbeats": 2696,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "st/7aba52a2ccb0727d/p",
+          "guard_valid": true,
+          "task_id": "CallElimCorrect.extractedOldExprInVars",
+          "fingerprint": "decaf9134ea12a312f3a8bf680359bcbb364a766f0e2b9b49a77964269c5f61d",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+          "guard_sha256": "cbfe34e644f1c9d3cc26a474979b66b367b228cb502d4f31ffb138b30b26a9f7"
+        }
+      ]
+    },
+    "ph-ftvc": {
+      "task_id": "fundamental_theorem_of_variational_calculus'",
+      "task_sha256": "b765ed8601d1251b727d3f264b5f8fc39b875f1a3166e5f875c7fa6372f2c3f6",
+      "original_tokens": 783,
+      "original_heartbeats": 11947,
+      "task": "tasks/fundamental_theorem_of_variational_calculus_prime.json",
+      "published_reference_heartbeats": 11947,
+      "primary": "ph/dfc412a21b59b104/p",
+      "compatibility": [],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 11947,
+      "original_measurement_evidence": {
+        "path": "original-controls/ph-ftvc.json",
+        "sha256": "4bb189af5f225e8095a57b52840d99254fc815f84d05e2633d18819ad09b73d0",
+        "historical_heartbeats": 11947,
+        "measured_heartbeats": 11947,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "ph/dfc412a21b59b104/p",
+          "guard_valid": true,
+          "task_id": "fundamental_theorem_of_variational_calculus'",
+          "fingerprint": "ce89ab6e024f33bfbab565242c9a4b66c5adc034a0af0eb7f9ead24aabe79032",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)\nwarning: manifest out of date: source kind (git/path) of dependency 'mathlib' changed; use `lake update mathlib` to update it",
+          "guard_sha256": "2adcfacade5e71fabdc9c5a84fa2a9298f432c1dd5dd8966eaee320cf04894a4"
+        }
+      ]
+    },
+    "ph-em": {
+      "task_id": "Electromagnetism.ElectromagneticPotential.time_deriv_time_deriv_electricField_of_isExtrema",
+      "task_sha256": "206ed2c249d5fac46e2d816674ecef7fa3dad6e7704571881b665fdc39c77177",
+      "original_tokens": 1445,
+      "original_heartbeats": 26975,
+      "task": "tasks/Electromagnetism_ElectromagneticPotential_time_deriv_time_deriv_electricField_of_isExtrema.json",
+      "published_reference_heartbeats": 26970,
+      "primary": "ph/dfc412a21b59b104/p",
+      "compatibility": [],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 26975,
+      "original_measurement_evidence": {
+        "path": "original-controls/ph-em.json",
+        "sha256": "191ac8580cbdffdc99a111511ef2f6ad33b47ac72320dc4e242b3bab1d703ff6",
+        "historical_heartbeats": 26975,
+        "measured_heartbeats": 26975,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "ph/dfc412a21b59b104/p",
+          "guard_valid": true,
+          "task_id": "Electromagnetism.ElectromagneticPotential.time_deriv_time_deriv_electricField_of_isExtrema",
+          "fingerprint": "41b7acadf5b37d3559556f4a17a3bbe2a78fbfd28eaedc5cc8fba6cb7ad78166",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)\nwarning: manifest out of date: source kind (git/path) of dependency 'mathlib' changed; use `lake update mathlib` to update it",
+          "guard_sha256": "1e9555484d82d7275bb930668c52a93852dfd49fe54e252692662988ff9f988a"
+        }
+      ]
+    },
+    "cs-fsub": {
+      "task_id": "Cslib.LambdaCalculus.LocallyNameless.Fsub.Typing.progress",
+      "task_sha256": "7aca2603b9d11224b827fb3a35465442b7787840a6032e69ce3fc3c7ba13b73c",
+      "original_tokens": 394,
+      "original_heartbeats": 59839,
+      "task": "tasks/Cslib_LambdaCalculus_LocallyNameless_Fsub_Typing_progress.json",
+      "published_reference_heartbeats": 59830,
+      "primary": "cs/89b729050634dbaf/p",
+      "compatibility": [
+        "cs/d024ea13cad9aae0/p",
+        "cs/ff7b1fe1295e41bd/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 59839,
+      "original_measurement_evidence": {
+        "path": "original-controls/cs-fsub.json",
+        "sha256": "67a645d27054ec2d1ba55532820fb85ceb31b0c1a27391edebba5737db28d0f6",
+        "historical_heartbeats": 59839,
+        "measured_heartbeats": 59839,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "cs/89b729050634dbaf/p",
+          "guard_valid": true,
+          "task_id": "Cslib.LambdaCalculus.LocallyNameless.Fsub.Typing.progress",
+          "fingerprint": "f8174e1dcddedb36727f23ff5b5349011f3ef6e24b56881a9090bc21d7141a71",
+          "lean_version": "Lean (version 4.33.0-rc2, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+          "guard_sha256": "c4c85ac54f645504539d3cd22aa6327e94b79ac187b26f416e74f90a0b752a0e"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/d024ea13cad9aae0/p",
+          "guard_valid": true,
+          "task_id": "Cslib.LambdaCalculus.LocallyNameless.Fsub.Typing.progress",
+          "fingerprint": "1f881078aa2ad9aea3f880fdbdf76e851461d162722463710249edfb0d7eb953",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+          "guard_sha256": "759a527d34e1dac77a462f983d95bd2853275d8ddb7de777514df342c9224e2d"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/ff7b1fe1295e41bd/p",
+          "guard_valid": true,
+          "task_id": "Cslib.LambdaCalculus.LocallyNameless.Fsub.Typing.progress",
+          "fingerprint": "922205d285c7107262c5a19d59ad2f6bfd06c7162c2e3eaa86c0985a2492f184",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+          "guard_sha256": "c68040edb3c0069b40e8edf1f4fcd7042010c90028890e248fb8844480872f51"
+        }
+      ]
+    },
+    "cs": {
+      "task_id": "Cslib.SKI.parallelReduction_diamond",
+      "task_sha256": "e4a8b839b40654b00bc30c122e769f4cfd507c9f0b860f55e03ed84dd202639c",
+      "original_tokens": 378,
+      "original_heartbeats": 1383,
+      "task": "tasks/Cslib_SKI_parallelReduction_diamond.json",
+      "published_reference_heartbeats": 1383,
+      "primary": "cs/89b729050634dbaf/p",
+      "compatibility": [
+        "cs/d024ea13cad9aae0/p",
+        "cs/ff7b1fe1295e41bd/p",
+        "cs/aa89d398d5827587/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 1383,
+      "original_measurement_evidence": {
+        "path": "original-controls/cs.json",
+        "sha256": "425412cae9b9833c7562d64575e50f1fccf3ddfa07d7a7b386f31e8eeff604aa",
+        "historical_heartbeats": 1383,
+        "measured_heartbeats": 1383,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "cs/89b729050634dbaf/p",
+          "guard_valid": true,
+          "task_id": "Cslib.SKI.parallelReduction_diamond",
+          "fingerprint": "bc9861b5408e9fd50c9274bc26eac728e247c655cc2b58fbcde6b877c09b713e",
+          "lean_version": "Lean (version 4.33.0-rc2, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+          "guard_sha256": "79f8b17e84cd5f5b8718ce08f975dc1d0892f886dae9147460d590c0d1b8835f"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/d024ea13cad9aae0/p",
+          "guard_valid": true,
+          "task_id": "Cslib.SKI.parallelReduction_diamond",
+          "fingerprint": "e29b8ac6a1b352e30b154b229f324e76cda06237130505686e25fb6f6e7a350e",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+          "guard_sha256": "78db959b0245dbdee9684f03e4273525606ed8adb067b2668f67c73c133d10e3"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/ff7b1fe1295e41bd/p",
+          "guard_valid": true,
+          "task_id": "Cslib.SKI.parallelReduction_diamond",
+          "fingerprint": "c9e8242d5ec8bb917b51528b67ef69207edf4d19d52deb8bbea0400b7858f39a",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+          "guard_sha256": "67d227119652439a13a54ec6034115e7a124edf6ea37e1cf70c09d9f0d1321a2"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/aa89d398d5827587/p",
+          "guard_valid": true,
+          "task_id": "Cslib.SKI.parallelReduction_diamond",
+          "fingerprint": "16141bbc3c51ac27fac9876f43720d7fcadf806ec07f0654b9076dfd4829f19e",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)",
+          "guard_sha256": "50f4c8d92fd237206752fb419800625983f7b96c42d2e350dc799205b2e8d17f"
+        }
+      ]
+    },
+    "cs-ccs": {
+      "task_id": "Cslib.CCS.bisimilarity_congr_choice",
+      "task_sha256": "c016f365be17d386f898453bec317fa28eaeaaa6b73d91f4f229b909be46f627",
+      "original_tokens": 235,
+      "original_heartbeats": 3858,
+      "task": "tasks/Cslib_CCS_bisimilarity_congr_choice.json",
+      "published_reference_heartbeats": 3858,
+      "primary": "cs/89b729050634dbaf/p",
+      "compatibility": [
+        "cs/d024ea13cad9aae0/p",
+        "cs/ff7b1fe1295e41bd/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 3858,
+      "original_measurement_evidence": {
+        "path": "original-controls/cs-ccs.json",
+        "sha256": "370cba1293a92054cf30a189ec64ca042379104042b9cdfa5a8a9b72f9ccf8b3",
+        "historical_heartbeats": 3858,
+        "measured_heartbeats": 3858,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "cs/89b729050634dbaf/p",
+          "guard_valid": true,
+          "task_id": "Cslib.CCS.bisimilarity_congr_choice",
+          "fingerprint": "3bd8fc5c9309ab264f5b9247f070fa8792f5ae46ad1e757e45e91acf0ede0ce1",
+          "lean_version": "Lean (version 4.33.0-rc2, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+          "guard_sha256": "7bdd9435479423fefc49f5d56fa8a15d14f5e45fed0c7fb26688923e9982f422"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/d024ea13cad9aae0/p",
+          "guard_valid": true,
+          "task_id": "Cslib.CCS.bisimilarity_congr_choice",
+          "fingerprint": "65fc16eb301855ae31663d6a2fbd3f2e016f8defb5a104e11f87fcfbbf7a4330",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+          "guard_sha256": "841a9f89f32c9531d86ac8ecb3754cf29fd2752e57075c82f5ce64354eab7827"
+        },
+        {
+          "role": "compatibility",
+          "path": "cs/ff7b1fe1295e41bd/p",
+          "guard_valid": true,
+          "task_id": "Cslib.CCS.bisimilarity_congr_choice",
+          "fingerprint": "378c1b92dc8be53a46c8143a6e9d723c5b0de522a70e9d3acd11c0df7bec415d",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+          "guard_sha256": "730fa8777d2bb63a9bed81c031b383cdbda5f199256d33838716986ada15f9c7"
+        }
+      ]
+    },
+    "ar-fold": {
+      "task_id": "Binius.BinaryBasefold.fold_advances_evaluation_poly",
+      "task_sha256": "c682efd6ae540468097d2458af0391f28de4630627f5fd3c47cc457f9ab84061",
+      "original_tokens": 1871,
+      "original_heartbeats": 45273,
+      "task": "tasks/Binius_BinaryBasefold_fold_advances_evaluation_poly.json",
+      "published_reference_heartbeats": 45273,
+      "primary": "ar/6b20158c57e0ef29/p",
+      "compatibility": [
+        "ar/85115a7562ab2cb4/p",
+        "ar/44ad6d665ca1e8d4/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 45273,
+      "original_measurement_evidence": {
+        "path": "original-controls/ar-fold.json",
+        "sha256": "62718f6e938c0e426972ce02914f097ab1fe94aa1f885e22023b98d1dd1c258c",
+        "historical_heartbeats": 45273,
+        "measured_heartbeats": 45273,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "ar/6b20158c57e0ef29/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fold_advances_evaluation_poly",
+          "fingerprint": "899311401ec2960c4f0ff3b7b16840c9e0ee2e78f1d3d908575005efad0a45d6",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+          "guard_sha256": "6ae5dd2a75630438c90a87a7536ddceeaa93773b8e5c98a6da2c78e1192455ab"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/85115a7562ab2cb4/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fold_advances_evaluation_poly",
+          "fingerprint": "087f96b997bf65d00ac52aeff314ee83a80496aa44cb58b78f6ff79ede40b406",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)\nwarning: manifest out of date: git revision of dependency 'VCVio' changed; use `lake update VCVio` to update it",
+          "guard_sha256": "b520e976e87a5d15c55bb798d8f15588eb01a5df2873b05df1402e083b241891"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/44ad6d665ca1e8d4/p",
+          "guard_valid": true,
+          "task_id": "Binius.BinaryBasefold.fold_advances_evaluation_poly",
+          "fingerprint": "f6bbda3b762d3ce1f373d33e2166eafb27ebca339d2f097564989586dad5a0a1",
+          "lean_version": "Lean (version 4.29.0, x86_64-unknown-linux-gnu, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740, Release)",
+          "guard_sha256": "a9822b82bf9719c513498280d363165757665789b91ce5c5a30e1abccfb060d9"
+        }
+      ]
+    },
+    "ar-gaps": {
+      "task_id": "interleaved_affine_gaps_imply_tensor_gaps",
+      "task_sha256": "1f865652d1fde8d14fbdc78a0c159440815254c5625545459e559c0fc75644b4",
+      "original_tokens": 1349,
+      "original_heartbeats": 9198,
+      "task": "tasks/interleaved_affine_gaps_imply_tensor_gaps.json",
+      "published_reference_heartbeats": 9198,
+      "primary": "ar/6b20158c57e0ef29/p",
+      "compatibility": [
+        "ar/85115a7562ab2cb4/p",
+        "ar/44ad6d665ca1e8d4/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 9198,
+      "original_measurement_evidence": {
+        "path": "original-controls/ar-gaps.json",
+        "sha256": "5e93303c21f04226dd2fda18efd9a4f32a973dd3c700c24d50f99f129e995595",
+        "historical_heartbeats": 9198,
+        "measured_heartbeats": 9198,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "ar/6b20158c57e0ef29/p",
+          "guard_valid": true,
+          "task_id": "interleaved_affine_gaps_imply_tensor_gaps",
+          "fingerprint": "4bbdebd26c1aca8f89bddd820be8f136aca9ad9b841fa7752fd7dd283c967808",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+          "guard_sha256": "475e758289d10fc4c8125875a7a0f0d1ce11b44d5acb1d8cb3a71a01d86a934b"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/85115a7562ab2cb4/p",
+          "guard_valid": true,
+          "task_id": "interleaved_affine_gaps_imply_tensor_gaps",
+          "fingerprint": "0da136f76536fbd6fff3a1b420f328514c39e76159d9fff9cbeee48630180c37",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)\nwarning: manifest out of date: git revision of dependency 'VCVio' changed; use `lake update VCVio` to update it",
+          "guard_sha256": "9263a4d9f6d087b909f5f7dec834ba41f4d2342e1318779f31359dca5ea8f4fd"
+        },
+        {
+          "role": "compatibility",
+          "path": "ar/44ad6d665ca1e8d4/p",
+          "guard_valid": true,
+          "task_id": "interleaved_affine_gaps_imply_tensor_gaps",
+          "fingerprint": "1340a0452f4bf97c18ed0c94661120cc828ed9872bf3819d5a71b8850c2b812c",
+          "lean_version": "Lean (version 4.29.0, x86_64-unknown-linux-gnu, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740, Release)",
+          "guard_sha256": "61d03b725e6672a7e301d42b3df4ec3547dc69a0806a36107cd3f64ee312c1ad"
+        }
+      ]
+    },
+    "pu-b2": {
+      "task_id": "putnam_1964_b2",
+      "task_sha256": "5468edae3b5c1c6beb006ad01bf9d70f3cbff0122b3c7299bf11870ca14eb204",
+      "original_tokens": 1792,
+      "original_heartbeats": 120677,
+      "task": "tasks/putnam_1964_b2.json",
+      "published_reference_heartbeats": 134499,
+      "primary": "pu/514e7fd05ae587b0/p",
+      "compatibility": [
+        "pu/677610cae71ee80b/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 120493,
+      "original_measurement_evidence": {
+        "path": "original-controls/pu-b2.json",
+        "sha256": "31791e6b1dec332b75ac0ee6af248e3a9eb5cae4bf8e20e4a040a06b50eecb72",
+        "historical_heartbeats": 120677,
+        "measured_heartbeats": 120493,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "pu/514e7fd05ae587b0/p",
+          "guard_valid": true,
+          "task_id": "putnam_1964_b2",
+          "fingerprint": "b790a14ce490160b976da13108b44f24c8c78d364d620886c0d2898059533244",
+          "lean_version": "Lean (version 4.25.0, x86_64-unknown-linux-gnu, commit cdd38ac5115bdeec5f609e9126cce00f51ae88b3, Release)",
+          "guard_sha256": "4ce005e8196c77df6d55fc257ecaf891ea65773718b93f36337ec3036b0fce3f"
+        },
+        {
+          "role": "compatibility",
+          "path": "pu/677610cae71ee80b/p",
+          "guard_valid": true,
+          "task_id": "putnam_1964_b2",
+          "fingerprint": "88d9d72987e5a8117cf023dca0ecdf9fe154874d17928eff75854ea98ee2d0ea",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+          "guard_sha256": "b32ca1556ffb44b9ae7057161f1c2aa3d4588bfb2b15e7f31c26316437d7aa8d"
+        }
+      ]
+    },
+    "pu-95a3": {
+      "task_id": "putnam_1995_a3",
+      "task_sha256": "db6fcb51165c30f00ab9e73f7caf823da779cf549a4237cd3b0acadd6e790f16",
+      "original_tokens": 4121,
+      "original_heartbeats": 17954,
+      "task": "tasks/putnam_1995_a3.json",
+      "published_reference_heartbeats": 14130,
+      "primary": "pu/514e7fd05ae587b0/p",
+      "compatibility": [
+        "pu/677610cae71ee80b/p",
+        "pu/b76ff445249fc124/p"
+      ],
+      "registry_source": "environment-fingerprints.json",
+      "original_measurement_heartbeats": 17954,
+      "original_measurement_evidence": {
+        "path": "original-controls/pu-95a3.json",
+        "sha256": "40912b6415510cf6e9c585a1efa288371bb6afa8bce588a53ccca3a1a86a6ec9",
+        "historical_heartbeats": 17954,
+        "measured_heartbeats": 17954,
+        "scoring_denominator_changed": false
+      },
+      "environments": [
+        {
+          "role": "primary",
+          "path": "pu/514e7fd05ae587b0/p",
+          "guard_valid": true,
+          "task_id": "putnam_1995_a3",
+          "fingerprint": "b6be4779abe141b06e4dccf4bde3e4c8644483c8e74f32a77aa1ccf96036f49b",
+          "lean_version": "Lean (version 4.25.0, x86_64-unknown-linux-gnu, commit cdd38ac5115bdeec5f609e9126cce00f51ae88b3, Release)",
+          "guard_sha256": "df96b3e7d071c3749749dfbc3aeae2985ae2410a5bf31edbd46217d093680a87"
+        },
+        {
+          "role": "compatibility",
+          "path": "pu/677610cae71ee80b/p",
+          "guard_valid": true,
+          "task_id": "putnam_1995_a3",
+          "fingerprint": "5bd2759859b2c46e0671d844f6a1a5e8b1347ae95840790b53231b18be4bee66",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+          "guard_sha256": "22b604aa6f9205cf8160f0ef21e2382f72ca95f11a5e537638de6c6fbc26d5fb"
+        },
+        {
+          "role": "compatibility",
+          "path": "pu/b76ff445249fc124/p",
+          "guard_valid": true,
+          "task_id": "putnam_1995_a3",
+          "fingerprint": "ab287d529188c4f932288f4316b6a4aa585aff55f84ec74c32a82770ab0e41d1",
+          "lean_version": "Lean (version 4.27.0, x86_64-unknown-linux-gnu, commit db93fe1608548721853390a10cd40580fe7d22ae, Release)",
+          "guard_sha256": "4924d529b09e090eb3acc5b24c3c83faaf7e10b27a624fb787add22418619fd9"
+        }
+      ]
+    }
+  },
+  "policy": "Historical original scoring denominators retained; Linux control measurements recorded separately",
+  "native_platform": "linux-x86_64",
+  "native_setup_state": "READY",
+  "native_original_controls_complete": true,
+  "heartbeat_denominator_policy": "Historical ORIGINAL denominators are frozen; native measurements remain separate evidence."
+}

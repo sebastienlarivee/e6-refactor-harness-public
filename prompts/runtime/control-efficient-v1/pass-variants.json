@@ -1,0 +1,30 @@
+{
+  "first-pass": {
+    "pass_opening": "This is an independent reproof from the theorem statement. Build an efficient argument from its legal context.",
+    "starting_instructions": "Candidate.lean contains the theorem statement with an unfinished `skip` body. Construct your own proof. Establish a valid candidate early, then look for substantial improvements instead of treating the first successful argument as the finish line. The original proof is hidden and remains a private host fallback if this pass produces no better valid candidate. This pass uses the cached Lean environments through cold local wrappers; resident warm feedback is unavailable.",
+    "incumbent_briefing": "",
+    "source_visibility_notice": " Statement-only overlay; the target's original proof and source suffix are unavailable. Dependent build artifacts and project history are masked; other project source files remain readable.",
+    "incumbent_metrics_line": ""
+  },
+  "continuation": {
+    "pass_opening": "This pass starts from a verified incumbent. Improve it aggressively, including by replacing its argument completely.",
+    "starting_instructions": "Candidate.lean contains the current host-verified incumbent. Its structure is optional: you may improve a part of it or reprove the theorem from a different starting idea. The starting proof has already been checked; use its measurements below and direct new checks toward changed candidates or specific uncertainties. This pass has the resident feedback path.",
+    "incumbent_briefing": "\nHost-verified starting incumbent in Candidate.lean (host checks complete). Its full-source SHA-256 is `{{incumbent_sha256}}`.\n\n{{incumbent_measurements}}\n",
+    "source_visibility_notice": " Legal project prefix ends before target line {{target_start_line}}.",
+    "incumbent_metrics_line": ""
+  },
+  "reference-rebuild": {
+    "pass_opening": "Rebuild the proof from the theorem's requirements, with the original available as a verified reference and fallback.",
+    "starting_instructions": "Candidate.lean contains the theorem statement and legal context with an unfinished proof body. Original.lean contains the supplied original proof, available as a verified reference and fallback. Build your candidate from the theorem's requirements, using the original to understand useful facts, dependencies, and possible arguments. Choose the structure of your proof deliberately. Give particular attention to fresh derivations, simpler intermediate claims, different decompositions or representations, and ways to eliminate whole portions of the argument. Freely reuse, adapt, or replace material from the original. Ordinary refactoring is also valuable: pursue straightforward improvements wherever they offer a good return. The goal is the strongest measured proof, and preserving useful parts of the original is entirely appropriate. Test the decisive steps of promising approaches early. You already have the original as a valid fallback, so use the draft to explore improvements without needing to reconstruct every detail before testing an idea. Finish with your best complete, verified proof in Candidate.lean.\n\nThis pass has normal project source visibility and the resident feedback path.",
+    "incumbent_briefing": "\nHost-verified original reference and fallback: `{{reference_path}}` (Original.lean). Its full-source SHA-256 is `{{reference_sha256}}`. These measurements and completed host checks belong to Original.lean; Candidate.lean starts unfinished.\n\n{{incumbent_measurements}}\n",
+    "source_visibility_notice": " Normal project source visibility applies; the original target proof and source suffix are readable. The legal proof prefix still ends before target line {{target_start_line}}.",
+    "incumbent_metrics_line": ""
+  },
+  "reference-rebuild-continuation": {
+    "pass_opening": "Rebuild the proof from the theorem's requirements, with the current best proof available as a verified reference and fallback.",
+    "starting_instructions": "Candidate.lean contains the theorem statement and legal context with an unfinished proof body. Original.lean contains the current host-verified best proof from the preceding passes, supplied as your reference and fallback. Reconsider the argument from the theorem's requirements, using the reference to understand useful facts, dependencies, and possible arguments. Consider alternative derivations, simpler intermediate claims, or a better decomposition alongside focused refactoring. Choose experiments according to their plausible score upside. Freely reuse, adapt, or replace material from the reference; preserving its useful structure and making local improvements are entirely appropriate. Test the decisive steps of promising approaches early. The reference already provides a valid fallback, so use the draft to explore improvements without needing to reconstruct every detail before testing an idea. Finish with your best complete, verified proof in Candidate.lean.\n\nThis pass has normal project source visibility and the resident feedback path.",
+    "incumbent_briefing": "\nHost-verified current-best reference and fallback: `{{reference_path}}` (Original.lean). Its full-source SHA-256 is `{{reference_sha256}}`. These measurements and completed host checks belong to Original.lean; Candidate.lean starts unfinished.\n\n{{incumbent_measurements}}\n",
+    "source_visibility_notice": " Normal project source visibility applies; the original target proof and source suffix are readable. The legal proof prefix still ends before target line {{target_start_line}}.",
+    "incumbent_metrics_line": ""
+  }
+}

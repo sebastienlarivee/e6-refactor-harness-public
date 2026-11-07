@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "59275b6",
+  "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+  "policy": "Original data/tasks row values, including existing signature/contexts normalization; JSONL serialization is reconstructed and has its own hashes. No proof replacement.",
+  "files": {
+    "benchmark_data_warmup.jsonl": "749b598c07dabcbfc6cd020aa4680031f5ed243fd7fd7644a58953d7c9150806",
+    "benchmark_heartbeats.jsonl": "ee39812a6392d84f6b6b5e1ca14bbb01163c7615a7ad656a9f2821fa78ed8e75"
+  },
+  "rows": [
+    {
+      "name": "CallElimCorrect.substOldPostSubset",
+      "task_file": "data/tasks/CallElimCorrect_substOldPostSubset.json",
+      "task_sha256": "f9d79ab0b767cd4a6f3e7bd369dbbe099a4bfb7964b1a3d9cd2412313becb75e",
+      "row_sha256": "033f409c906d727dc43a5d86833f17e62454cad278d3a4b9aa4dc800d405c39c",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "4df495840c9a8812eb1513d3f75203d5fd0a60ca76f751960a58d24e48f86ee0",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:24.095723+00:00"
+    },
+    {
+      "name": "CallElimCorrect.extractedOldExprInVars",
+      "task_file": "data/tasks/CallElimCorrect_extractedOldExprInVars.json",
+      "task_sha256": "f33a055f8b6bd96e9d83a0408b79d6b8f57a9b97845b130e3c767ac6846b08fe",
+      "row_sha256": "8a1d4fae046708f865f8bc34969a43baa324be743487164feca5f7714f1ecc39",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "fc4b81a8a0eee85048eef7bf8688492470a4bac80eac183623e3aef34dccd0a0",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:24.648725+00:00"
+    },
+    {
+      "name": "Core.InitsUpdatesComm",
+      "task_file": "data/tasks/Core_InitsUpdatesComm.json",
+      "task_sha256": "dca92ddd007374ff3493aaa1798452cf1bf9096b9b4114ec43328e68df7a4f69",
+      "row_sha256": "cae2c88a0230c27cfe4a7da98f6e67137411f17bcc5d10ae31f9a4a9026d1099",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "4631efc535618b21a77896f7d36fcd02632db2a5c5f15f96597cd936bcb3abd7",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-22T01:20:58.419994+00:00"
+    },
+    {
+      "name": "fundamental_theorem_of_variational_calculus'",
+      "task_file": "data/tasks/fundamental_theorem_of_variational_calculus_prime.json",
+      "task_sha256": "b765ed8601d1251b727d3f264b5f8fc39b875f1a3166e5f875c7fa6372f2c3f6",
+      "row_sha256": "85bd83f56016f0ee81800c4840d54e529b1c10b35252e2d4a25df2d90d9b60fe",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "cbaef054e43e4bf09fc20dcc43722ceb31d1e2ae4aea45e77530625157ab1811",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:25.206800+00:00"
+    },
+    {
+      "name": "Electromagnetism.ElectromagneticPotential.time_deriv_time_deriv_electricField_of_isExtrema",
+      "task_file": "data/tasks/Electromagnetism_ElectromagneticPotential_time_deriv_time_deriv_electricField_of_isExtrema.json",
+      "task_sha256": "206ed2c249d5fac46e2d816674ecef7fa3dad6e7704571881b665fdc39c77177",
+      "row_sha256": "e2e1829990c485902c3d1d244acc76804a667a911b3db4fc6fce56e1c16f2027",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "a434bdf907004e12e13037ce1e661bb48f29f7395dcfdf11ba6f2cd57845a814",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:25.745606+00:00"
+    },
+    {
+      "name": "FieldSpecification.WickAlgebra.ι_timeOrderF_superCommuteF_eq_time",
+      "task_file": "data/tasks/FieldSpecification_WickAlgebra_ι_timeOrderF_superCommuteF_eq_time.json",
+      "task_sha256": "b94cd73aadf4cd296ddaafb515fe41cea51869b03d6ba7ccaffcc37cfc6b6da5",
+      "row_sha256": "ecdca2b3eadb7a25f62064dc59c6087f40c7f861bd623207e6c41501af092cd9",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "a2bebae6528b7fd2202fbdbcaf89231135ff1cd7d81927e59e306b6857511a38",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-22T01:20:59.040978+00:00"
+    },
+    {
+      "name": "Cslib.LambdaCalculus.LocallyNameless.Fsub.Typing.progress",
+      "task_file": "data/tasks/Cslib_LambdaCalculus_LocallyNameless_Fsub_Typing_progress.json",
+      "task_sha256": "7aca2603b9d11224b827fb3a35465442b7787840a6032e69ce3fc3c7ba13b73c",
+      "row_sha256": "68da21cd6c64c4b4242cc63c0518c154e503d0796f14760e646f985f178d06dd",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "f4fd61e71d617726ccded41a544509f3482b3dd7e6be3604085ee64df7a77c0e",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:26.277748+00:00"
+    },
+    {
+      "name": "Cslib.SKI.parallelReduction_diamond",
+      "task_file": "data/tasks/Cslib_SKI_parallelReduction_diamond.json",
+      "task_sha256": "e4a8b839b40654b00bc30c122e769f4cfd507c9f0b860f55e03ed84dd202639c",
+      "row_sha256": "4643170bc9ac2283f3460572aac30daf8c02f97154331f67b9374bfe87afa933",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "64388f9fe074dc884076235c2cd56e3e70910058f59f8f7f59b1ab3f210257ac",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-22T01:20:59.694676+00:00"
+    },
+    {
+      "name": "Cslib.CCS.bisimilarity_congr_choice",
+      "task_file": "data/tasks/Cslib_CCS_bisimilarity_congr_choice.json",
+      "task_sha256": "c016f365be17d386f898453bec317fa28eaeaaa6b73d91f4f229b909be46f627",
+      "row_sha256": "743a84c5edbdfc4324c7a3d368b69fdf7048ca4381a78ecbb9635d9f6ffc9a72",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "fa45a9db986de35bb6675701511739f5f26cc4f8280b35187d92383e64995368",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:26.862637+00:00"
+    },
+    {
+      "name": "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius",
+      "task_file": "data/tasks/Binius_BinaryBasefold_fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius.json",
+      "task_sha256": "0f1a612e40537b573ff9f8c9942efea1ab2071ad3fadd7947372169fec482cdf",
+      "row_sha256": "4f1d3b976b940bd4c80cf57895124ca8369815cdd922ac57ebcabdcbdab76003",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "c43ef25ef43edf3dd7de0893f160a1c631964d9560dedc2f4e23a5b3903d840d",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-22T01:21:00.279508+00:00"
+    },
+    {
+      "name": "Binius.BinaryBasefold.fold_advances_evaluation_poly",
+      "task_file": "data/tasks/Binius_BinaryBasefold_fold_advances_evaluation_poly.json",
+      "task_sha256": "c682efd6ae540468097d2458af0391f28de4630627f5fd3c47cc457f9ab84061",
+      "row_sha256": "d09cb18b7d4fc400780844a31d0a75e5969e920ec002044937bf3f937a0f7490",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "8246b8e8292f89cd1fe0e34ac0f5a658ec4ca82480a604c753bfed68dfcb8eb4",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:27.379072+00:00"
+    },
+    {
+      "name": "interleaved_affine_gaps_imply_tensor_gaps",
+      "task_file": "data/tasks/interleaved_affine_gaps_imply_tensor_gaps.json",
+      "task_sha256": "1f865652d1fde8d14fbdc78a0c159440815254c5625545459e559c0fc75644b4",
+      "row_sha256": "093774d065e68e2563a86e64a3c03445b9fae58156030fc658b082246ac8b7cb",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "9108a4124cfc2bf538fab00db4cc9628fca9eaf180a87a160acf8aabe5117799",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:27.933708+00:00"
+    },
+    {
+      "name": "putnam_1964_a4",
+      "task_file": "data/tasks/putnam_1964_a4.json",
+      "task_sha256": "dffdd9ef9a629ad2f7bb2f7f8b8902811b646950caf411f3e672cdcd9bdac659",
+      "row_sha256": "fddf489ef14e5f50bb4f2092b7d422900169d3382eb97de89611a2009f8ae854",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "2f4b0838727738c3fd0afcb4c89134c12e46767220e26a2d8ea7467e310a103c",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-22T01:21:00.863861+00:00"
+    },
+    {
+      "name": "putnam_1964_b2",
+      "task_file": "data/tasks/putnam_1964_b2.json",
+      "task_sha256": "5468edae3b5c1c6beb006ad01bf9d70f3cbff0122b3c7299bf11870ca14eb204",
+      "row_sha256": "4b0810e3b1f55597c60e14489e1a88f6771e805d78b2d79120a93ea6e718e679",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "e345fdaa82d2439e92ae9f7f67d77f660fdfbd422eb59f34b714589802cf709e",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-21T02:14:49.205496+00:00"
+    },
+    {
+      "name": "putnam_1995_a3",
+      "task_file": "data/tasks/putnam_1995_a3.json",
+      "task_sha256": "db6fcb51165c30f00ab9e73f7caf823da779cf549a4237cd3b0acadd6e790f16",
+      "row_sha256": "ca590470cea432295d87e2ee6b4cceb4f7067ea71edadd34d9d913d057be19c6",
+      "original_source": {
+        "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+        "row_sha256": "10190a2345715dd64bf61658415dafefcada96892a76207f51b2d85cf1cb239d",
+        "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+      },
+      "retrieved_at": "2026-08-28T01:33:28.452036+00:00"
+    }
+  ]
+}

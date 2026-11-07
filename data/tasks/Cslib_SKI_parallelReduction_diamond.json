@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-08-22T01:20:59.694676+00:00",
+  "source": {
+    "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+    "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+    "row_sha256": "64388f9fe074dc884076235c2cd56e3e70910058f59f8f7f59b1ab3f210257ac",
+    "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+  },
+  "reference": {
+    "heartbeat": 1383
+  },
+  "row": {
+    "name": "Cslib.SKI.parallelReduction_diamond",
+    "source": "cslib",
+    "statement": "theorem parallelReduction_diamond : Diamond ParallelReduction",
+    "src": "theorem parallelReduction_diamond : Diamond ParallelReduction := by\n  intro a a₁ a₂ h₁ h₂\n  cases h₁\n  case refl => exact ⟨a₂, h₂, .refl a₂⟩\n  case par a a' b b' ha' hb' =>\n    cases h₂\n    case refl =>\n      use a' ⬝ b'\n      exact ⟨.refl (a' ⬝ b'), .par ha' hb'⟩\n    case par a'' b'' ha'' hb'' =>\n      let ⟨a₃, ha⟩ := parallelReduction_diamond ha' ha''\n      let ⟨b₃, hb⟩ := parallelReduction_diamond hb' hb''\n      use a₃ ⬝ b₃\n      constructor\n      · exact .par ha.1 hb.1\n      · exact .par ha.2 hb.2\n    case red_I =>\n      rw [I_irreducible a' ha']\n      use b', .red_I b'\n    case red_K =>\n      let ⟨a₂', ha₂'⟩ := Ka_irreducible a₂ a' ha'\n      rw [ha₂'.2]\n      use a₂'\n      exact ⟨.red_K a₂' b', ha₂'.1⟩\n    case red_S a c =>\n      let ⟨a'', c', h⟩ := Sab_irreducible a c a' ha'\n      rw [h.2.2]\n      use a'' ⬝ b' ⬝ (c' ⬝ b'), .red_S a'' c' b'\n      apply ParallelReduction.par <;>\n        apply ParallelReduction.par <;>\n        grind\n  case red_I =>\n    cases h₂\n    case refl => use a₁; exact ⟨.refl a₁, .red_I a₁⟩\n    case par c a₁' hc ha =>\n      rw [I_irreducible c hc]\n      use a₁'\n      exact ⟨ha, .red_I a₁'⟩\n    case red_I => use a₁; exact ⟨.refl a₁, .refl a₁⟩\n  case red_K c =>\n    cases h₂\n    case refl => use a₁; exact ⟨.refl a₁, .red_K a₁ c⟩\n    case par a' c' ha hc =>\n      let ⟨a₁', h'⟩ := Ka_irreducible a₁ a' ha\n      rw [h'.2]\n      use a₁'\n      exact ⟨h'.1, .red_K a₁' c'⟩\n    case red_K =>\n      use a₁; exact ⟨.refl a₁, .refl a₁⟩\n  case red_S a b c =>\n    cases h₂\n    case refl =>\n      use a ⬝ c ⬝ (b ⬝ c)\n      exact ⟨.refl _, .red_S ..⟩\n    case par d c' hd hc =>\n      let ⟨a', b', h⟩ := Sab_irreducible a b d hd\n      rw [h.2.2]\n      use a' ⬝ c' ⬝ (b' ⬝ c')\n      constructor\n      · apply ParallelReduction.par\n        · exact .par h.left hc\n        · exact .par h.2.1 hc\n      · exact .red_S ..\n    case red_S => exact ⟨a ⬝ c ⬝ (b ⬝ c), .refl _, .refl _,⟩",
+    "proof_length": 407,
+    "num_lines": 64,
+    "header": "",
+    "file_path": "Cslib/Languages/CombinatoryLogic/Confluence.lean",
+    "url": "https://github.com/leanprover/cslib",
+    "start_line": 142,
+    "end_line": 205,
+    "version_info": [
+      {
+        "v4.33.0-rc2": "3aa9d4416c185e0b9faeb72bbd65abe85b95dbcc"
+      },
+      {
+        "v4.32.0": "197a7be621263b84c67ca4f803f69205b36d06df"
+      },
+      {
+        "v4.31.0": "8ea71c8df91acd63285515a04da952b23b78d266"
+      },
+      {
+        "v4.30.0": "c7944a9fb44c3298f1a960a5e574ab23a6ab8ed5"
+      }
+    ],
+    "signature": "theorem parallelReduction_diamond : Diamond ParallelReduction",
+    "contexts": []
+  },
+  "local_baselines": [
+    {
+      "environment_fingerprint": "1f8f0f35688b13f58550a66bb6b7f904d6897670fa3bfe1d9afb9bd7b3f5a686",
+      "heartbeat": 1383,
+      "recorded_at": "2026-08-22T04:37:35.478969+00:00",
+      "lean_version": "Lean (version 4.33.0-rc2, x86_64-w64-windows-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+      "lake_manifest_sha256": "686ab3787d478345c7962db7eb76138cff7b9c9aa75941796c48a2b05a3a412d",
+      "instrumentation": "project-command-heartbeat-v1"
+    }
+  ]
+}

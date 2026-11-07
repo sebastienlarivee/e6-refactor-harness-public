@@ -1,0 +1,45 @@
+{
+  "source_matrix_sha256": "27a4261204a92191a3f4adfd9ce55b43ac948ed7ed4c1dd94ad44d86c94a4581",
+  "versions": {
+    "4.29.1": {
+      "commit": "f72c35b3f637c8c6571d353742168ab66cc22c00",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.27.0": {
+      "commit": "db93fe1608548721853390a10cd40580fe7d22ae",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.26.0": {
+      "commit": "d8204c9fd894f91bbb2cdfec5912ec8196fd8562",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.32.0": {
+      "commit": "8c9756b28d64dab099da31a4c09229a9e6a2ef35",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.31.0": {
+      "commit": "68218e876d2a38b1985b8590fff244a83c321783",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.30.0": {
+      "commit": "d024af099ca4bf2c86f649261ebf59565dc8c622",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.29.0": {
+      "commit": "98dc76e3c0a9b856c9b98726b713fb04fab16740",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.28.0": {
+      "commit": "7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.25.0": {
+      "commit": "cdd38ac5115bdeec5f609e9126cce00f51ae88b3",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    },
+    "4.33.0-rc2": {
+      "commit": "d8b18978322de05a8f3dba51ef03cf5461676c17",
+      "historical_compiler_platform": "x86_64-w64-windows-gnu"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+schema_version = 1
+
+[benchmark]
+input = "../data/benchmark_data_final.jsonl"
+env_map = "../environments.local.toml"
+
+[run]
+budget_usd = "2.90"
+budget_policy = "local-actual-cost-v1"
+concurrency = 2
+optimizer = "compact"
+
+[runtime]
+codex = "~/.local/share/lean-refactor-harness/bin/codex"
+elan_home = "~/.elan"
+
+[openrouter]
+profile = "models/sol61.json"
+default_reasoning_effort = "high"

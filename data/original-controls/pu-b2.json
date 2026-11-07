@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "task_id": "putnam_1964_b2",
+  "task_sha256": "5468edae3b5c1c6beb006ad01bf9d70f3cbff0122b3c7299bf11870ca14eb204",
+  "candidate_sha256": "69b64922dc5cb812db952348639615d34b7ce950514409724dce4a7b761d687f",
+  "historical_original_tokens": 1792,
+  "historical_original_heartbeats": 120677,
+  "originals_only": true,
+  "scoring_denominator_changed": false,
+  "evaluations": [
+    {
+      "task_id": "putnam_1964_b2",
+      "candidate_path": "original-controls/pu-b2/original.lean",
+      "valid": true,
+      "compile_seconds": 49.30247436400168,
+      "axiom_audit_seconds": 49.30247436400168,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "original_local_tokens": 1792,
+      "candidate_local_tokens": 1792,
+      "local_token_reduction_pct": 0.0,
+      "official_original_tokens": 1754,
+      "published_reference_heartbeat": 134499,
+      "local_reference_heartbeat": 120493,
+      "environment_fingerprint": "b790a14ce490160b976da13108b44f24c8c78d364d620886c0d2898059533244",
+      "heartbeat": 120493,
+      "heartbeat_reduction_pct": 0.0,
+      "cache_status": "miss",
+      "cache_source_mode": null,
+      "request_wall_seconds": 49.34718850600257,
+      "diagnostics_path": null,
+      "axiom_audit_shares_compile": true,
+      "role": "primary",
+      "project": "pu/514e7fd05ae587b0/p"
+    },
+    {
+      "task_id": "putnam_1964_b2",
+      "candidate_path": "original-controls/pu-b2/original.lean",
+      "valid": true,
+      "compile_seconds": 71.08887282199794,
+      "axiom_audit_seconds": 71.08887282199794,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "original_local_tokens": 1792,
+      "candidate_local_tokens": 1792,
+      "local_token_reduction_pct": 0.0,
+      "official_original_tokens": 1754,
+      "published_reference_heartbeat": 134499,
+      "local_reference_heartbeat": 134498,
+      "environment_fingerprint": "88d9d72987e5a8117cf023dca0ecdf9fe154874d17928eff75854ea98ee2d0ea",
+      "heartbeat": 134498,
+      "heartbeat_reduction_pct": 0.0,
+      "cache_status": "miss",
+      "cache_source_mode": null,
+      "request_wall_seconds": 71.13224802299737,
+      "diagnostics_path": null,
+      "axiom_audit_shares_compile": true,
+      "role": "compatibility",
+      "project": "pu/677610cae71ee80b/p"
+    }
+  ]
+}

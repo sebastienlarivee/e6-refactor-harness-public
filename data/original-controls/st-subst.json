@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "task_id": "CallElimCorrect.substOldPostSubset",
+  "task_sha256": "f9d79ab0b767cd4a6f3e7bd369dbbe099a4bfb7964b1a3d9cd2412313becb75e",
+  "candidate_sha256": "f7f0a74ef80f237758569a079fbedf7a1faef5f355c2ac0e76605c914c7687e9",
+  "historical_original_tokens": 343,
+  "historical_original_heartbeats": 5174,
+  "originals_only": true,
+  "scoring_denominator_changed": false,
+  "evaluations": [
+    {
+      "task_id": "CallElimCorrect.substOldPostSubset",
+      "candidate_path": "original-controls/st-subst/original.lean",
+      "valid": true,
+      "compile_seconds": 8.238646724999853,
+      "axiom_audit_seconds": 0.7616089490002196,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "original_local_tokens": 343,
+      "candidate_local_tokens": 343,
+      "local_token_reduction_pct": 0.0,
+      "official_original_tokens": 313,
+      "published_reference_heartbeat": 5175,
+      "local_reference_heartbeat": 5174,
+      "environment_fingerprint": "bd3a0223d5e5795858d6c766507a4f247589cd10a69b6bfb0fe50279bdf7d467",
+      "heartbeat": 5174,
+      "heartbeat_reduction_pct": 0.0,
+      "cache_status": "miss",
+      "cache_source_mode": null,
+      "request_wall_seconds": 9.852956859002006,
+      "diagnostics_path": null,
+      "axiom_audit_shares_compile": false,
+      "role": "primary",
+      "project": "st/7aba52a2ccb0727d/p"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "task_id": "FieldSpecification.WickAlgebra.ι_timeOrderF_superCommuteF_eq_time",
+  "task_sha256": "b94cd73aadf4cd296ddaafb515fe41cea51869b03d6ba7ccaffcc37cfc6b6da5",
+  "candidate_sha256": "cea7b1964ad37fb7020005692dacd8c052111427e1f696d692b2419b715cbbd3",
+  "historical_original_tokens": 1240,
+  "historical_original_heartbeats": 42080,
+  "originals_only": true,
+  "scoring_denominator_changed": false,
+  "evaluations": [
+    {
+      "task_id": "FieldSpecification.WickAlgebra.ι_timeOrderF_superCommuteF_eq_time",
+      "candidate_path": "original-controls/ph/original.lean",
+      "valid": true,
+      "compile_seconds": 18.86560187900068,
+      "axiom_audit_seconds": 13.55429030599953,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "original_local_tokens": 1240,
+      "candidate_local_tokens": 1240,
+      "local_token_reduction_pct": 0.0,
+      "official_original_tokens": 1217,
+      "published_reference_heartbeat": 42225,
+      "local_reference_heartbeat": 42080,
+      "environment_fingerprint": "45ae279bc843be719770f9f57a76bba77d54d5eafa97ecbe862a5fa9c9767c18",
+      "heartbeat": 42080,
+      "heartbeat_reduction_pct": 0.0,
+      "cache_status": "miss",
+      "cache_source_mode": null,
+      "request_wall_seconds": 33.75204218300132,
+      "diagnostics_path": null,
+      "axiom_audit_shares_compile": false,
+      "role": "primary",
+      "project": "ph/dfc412a21b59b104/p"
+    }
+  ]
+}

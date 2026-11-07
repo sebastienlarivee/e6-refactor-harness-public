@@ -1,0 +1,62 @@
+[
+  {
+    "file": "strata-LICENSE-APACHE.txt",
+    "source_url": "https://raw.githubusercontent.com/strata-org/Strata/33faa3268be189ae1891bd7c061471e1fa8aad82/LICENSE-APACHE",
+    "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+    "bytes": 10142
+  },
+  {
+    "file": "strata-LICENSE-MIT.txt",
+    "source_url": "https://raw.githubusercontent.com/strata-org/Strata/33faa3268be189ae1891bd7c061471e1fa8aad82/LICENSE-MIT",
+    "sha256": "f190f35125c4ec9f6804d3ed940b72270d3e793af35b0c32d09bf85cae4e0d8a",
+    "bytes": 1057
+  },
+  {
+    "file": "strata-NOTICE.txt",
+    "source_url": "https://raw.githubusercontent.com/strata-org/Strata/33faa3268be189ae1891bd7c061471e1fa8aad82/NOTICE",
+    "sha256": "d4290ed64c2edd0fce1d84e3f9dfb2881240fe534def76b8cd29ed6af683e287",
+    "bytes": 67
+  },
+  {
+    "file": "cslib-LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/leanprover/cslib/c7944a9fb44c3298f1a960a5e574ab23a6ab8ed5/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "file": "physlib-LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/leanprover-community/physlib/58d73ebd01edb1c5caa3ea5db07b0245afe93cb0/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "file": "arklib-LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/fa14552d40e793f2ea26e65c440306aae0c08a26/LICENSE",
+    "sha256": "c5accbbd8546e94c34aed24afe689a617627d18eed5a6c48277e48db57c23851",
+    "bytes": 11356
+  },
+  {
+    "file": "arklib-AUTHORS.txt",
+    "source_url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/fa14552d40e793f2ea26e65c440306aae0c08a26/AUTHORS",
+    "sha256": "eb535013a1ac0d71e12f1ddea3e8fae148acf327ed04a56a0d1795ae49831be6",
+    "bytes": 148
+  },
+  {
+    "file": "leanpool-LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/Vilin97/lean-pool/630eb920bd1ec60f18dbd4e70f2d942f45725b04/LICENSE",
+    "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+    "bytes": 11358
+  },
+  {
+    "file": "leanpool-NOTICE.txt",
+    "source_url": "https://raw.githubusercontent.com/Vilin97/lean-pool/630eb920bd1ec60f18dbd4e70f2d942f45725b04/NOTICE",
+    "sha256": "c04e1061ecb69d4fdeb06917fbf333bf2968cd309ced5a770537bb13dccf52c2",
+    "bytes": 32523
+  },
+  {
+    "file": "putnambench-lean4-LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/trishullab/PutnamBench/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  }
+]

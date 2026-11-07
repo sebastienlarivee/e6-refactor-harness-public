@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "task_id": "Electromagnetism.ElectromagneticPotential.time_deriv_time_deriv_electricField_of_isExtrema",
+  "task_sha256": "206ed2c249d5fac46e2d816674ecef7fa3dad6e7704571881b665fdc39c77177",
+  "candidate_sha256": "63d6fda8c3511cbe097c57febcb66652bc321714313b0fcbc3e18e6a45728124",
+  "historical_original_tokens": 1445,
+  "historical_original_heartbeats": 26975,
+  "originals_only": true,
+  "scoring_denominator_changed": false,
+  "evaluations": [
+    {
+      "task_id": "Electromagnetism.ElectromagneticPotential.time_deriv_time_deriv_electricField_of_isExtrema",
+      "candidate_path": "original-controls/ph-em/original.lean",
+      "valid": true,
+      "compile_seconds": 14.494744849002018,
+      "axiom_audit_seconds": 4.475924030000897,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "original_local_tokens": 1445,
+      "candidate_local_tokens": 1445,
+      "local_token_reduction_pct": 0.0,
+      "official_original_tokens": 1372,
+      "published_reference_heartbeat": 26970,
+      "local_reference_heartbeat": 26975,
+      "environment_fingerprint": "41b7acadf5b37d3559556f4a17a3bbe2a78fbfd28eaedc5cc8fba6cb7ad78166",
+      "heartbeat": 26975,
+      "heartbeat_reduction_pct": 0.0,
+      "cache_status": "miss",
+      "cache_source_mode": null,
+      "request_wall_seconds": 20.237813491999987,
+      "diagnostics_path": null,
+      "axiom_audit_shares_compile": false,
+      "role": "primary",
+      "project": "ph/dfc412a21b59b104/p"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "task_id": "fundamental_theorem_of_variational_calculus'",
+  "task_sha256": "b765ed8601d1251b727d3f264b5f8fc39b875f1a3166e5f875c7fa6372f2c3f6",
+  "candidate_sha256": "7377cf49f7e366a9bb435096305cf5ef8e34e48dd34609977700d54cd9ef65de",
+  "historical_original_tokens": 783,
+  "historical_original_heartbeats": 11947,
+  "originals_only": true,
+  "scoring_denominator_changed": false,
+  "evaluations": [
+    {
+      "task_id": "fundamental_theorem_of_variational_calculus'",
+      "candidate_path": "original-controls/ph-ftvc/original.lean",
+      "valid": true,
+      "compile_seconds": 13.158610058002523,
+      "axiom_audit_seconds": 9.729001183997752,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "original_local_tokens": 783,
+      "candidate_local_tokens": 783,
+      "local_token_reduction_pct": 0.0,
+      "official_original_tokens": 851,
+      "published_reference_heartbeat": 11947,
+      "local_reference_heartbeat": 11947,
+      "environment_fingerprint": "ce89ab6e024f33bfbab565242c9a4b66c5adc034a0af0eb7f9ead24aabe79032",
+      "heartbeat": 11947,
+      "heartbeat_reduction_pct": 0.0,
+      "cache_status": "miss",
+      "cache_source_mode": null,
+      "request_wall_seconds": 24.3574902879991,
+      "diagnostics_path": null,
+      "axiom_audit_shares_compile": false,
+      "role": "primary",
+      "project": "ph/dfc412a21b59b104/p"
+    }
+  ]
+}

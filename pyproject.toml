@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lean-refactor-harness"
+version = "0.1.0"
+description = "e6: budgeted Lean proof refactoring through Codex and OpenRouter"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = ["httpx==0.28.1", "zstandard==0.25.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+harness = "harness.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["harness*", "e6*", "lean_tools*", "transport*"]
+
+[tool.setuptools.package-data]
+e6 = ["deterministic_native_support/*.lean.inc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "LICENSES/*.txt", "LICENSES/*.md"]

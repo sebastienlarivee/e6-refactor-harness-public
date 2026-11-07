@@ -1,0 +1,40 @@
+{
+  "core": {
+    "repository": "lean-e6",
+    "extraction_commit": "59275b6",
+    "components": [
+      "Lean verification",
+      "native agent integration",
+      "compact optimizer"
+    ]
+  },
+  "openrouter_boundary": {
+    "repository": "lean-e6",
+    "extraction_commit": "0e1ea0a"
+  },
+  "efficient_workflow": {
+    "source_commits": [
+      "b01b6749ec071ac65c5e6763c54129d30ec7a1ae",
+      "6e125876943188ddfe9d4aa9aac00e6e3d2428cf"
+    ],
+    "policy": "efficient-v1",
+    "features": [
+      "compact receipts with full archives",
+      "candidate batches",
+      "verified score components and neutral sensitivities"
+    ]
+  },
+  "dictionary_optimizer": {
+    "repository": "lean-e6",
+    "source_checkpoint": "5a18700c43542b4ebff9387f96456106c1f21758",
+    "composition_review_checkpoint": "e551c6a",
+    "source_generator_sha256": "a6f385c5d945f24cece43836ec212dcc0accaeecd5775ea271e73f6623adb74d",
+    "lean_helper_sha256": "38b06522e2135e5fbdb132253fc4685b3d62074300efd274236833fb05dc052b",
+    "adaptation": "Relocated generic generator/helper; one bounded sweep after compact with product checkpointing and independent verification. No archived proof solutions or task-specific names."
+  },
+  "benchmark_provenance": "data/benchmark-provenance.json",
+  "release_identity": "Every source ZIP contains a SHA-256 manifest; every prepared run freezes source, input, model, environment and policy identities.",
+  "archived_refactored_solutions_included": false,
+  "experiment_history": "Maintained separately in the lean-e6 research repository under research/production-harness. Historical runtime roots are not setup dependencies.",
+  "final_benchmark_provenance": "data/benchmark-final-provenance.json"
+}

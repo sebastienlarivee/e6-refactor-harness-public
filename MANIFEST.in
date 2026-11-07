@@ -1,0 +1,18 @@
+recursive-include data *.json *.jsonl
+recursive-include prompts/runtime *.md *.json
+recursive-include configs *.toml *.json
+include environment-sources/environment-setup.json
+recursive-include e6 *.mjs *.ts
+recursive-include e6/deterministic_native_support *.lean.inc
+include README.md pyproject.toml MANIFEST.in uv.lock setup.sh run.sh
+include docs/setup.md docs/operations.md docs/lean-dependencies.md docs/provenance.json
+include scripts/setup_runtime.py scripts/monitor.py scripts/setup_environments.py
+include scripts/source_fetch.py
+include scripts/setup_submission.py scripts/run_submission.py
+# Source distributions retain developer checks; organizer ZIPs exclude these by default.
+include scripts/build_bundle.py scripts/export_environment_sources.py
+recursive-include tests *.py *.json *.jsonl
+global-exclude *.local.* *.evidence.json *.py[cod]
+
+include LICENSE THIRD_PARTY_NOTICES.md
+recursive-include LICENSES *.txt *.md *.json

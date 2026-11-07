@@ -1,0 +1,1739 @@
+{
+  "schema_version": 1,
+  "snapshots": {
+    "snapshot-7b8357088fc4da40a7de": {
+      "repository": "https://github.com/strata-org/Strata",
+      "lean_version": "v4.26.0",
+      "revision": "451e5f047bafa010d178856db76c00029bfa4d7f",
+      "kind": "repository",
+      "lean_commit": "d8204c9fd894f91bbb2cdfec5912ec8196fd8562",
+      "required_files": {
+        "lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        "lake-manifest.json": "5aab41f14cc55b5049ae81535506b6998bfadd9d983af6130fa92f4a39bd244c",
+        "lakefile.toml": "5c0abe83aaa82d837d50cf987102ff3138a15aec988912f06166a39e5ee578ae",
+        "Strata/Transform/CallElimCorrect.lean": "1c5e76014548db4a380b5c225f561c726a0db1184dcddfefb7191052e67dd79a",
+        ".lake/packages/plausible/lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "7d7ea4683f70f5a5473a887e5a06df1cd3dbc25e4d351e35c2583edd9d5e2e57",
+        "Strata/Languages/Core/StatementSemanticsProps.lean": "bb67b50c5a2c9021ba7b2b5c705e2ace30dea100fda687397fa09d7774a69602"
+      }
+    },
+    "snapshot-ab86d5ef041b147c7b9c": {
+      "repository": "https://github.com/strata-org/Strata",
+      "lean_version": "v4.29.1",
+      "revision": "384e22374e0872095ad9c6f74c5998c09cfd93a9",
+      "kind": "repository",
+      "lean_commit": "f72c35b3f637c8c6571d353742168ab66cc22c00",
+      "required_files": {
+        "lean-toolchain": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2",
+        "lake-manifest.json": "7514712b0b38e2542107275bc394ed29a077ae96b15bc0def791e60ab5953ed2",
+        "lakefile.toml": "618ca23bdfe600df4d5f669985966ebad45b89587a11cfd1212ec4c62ddac693",
+        "Strata/Languages/Core/StatementSemanticsProps.lean": "9442c6376cbcbeac7826054ed64de09fc85984d15424ad73faa45415d1c58ada",
+        ".lake/packages/plausible/lean-toolchain": "2d1bb6a3ae4187a3a55ae14bd1fa5fd64f56c3964da8a0269cc0926515f9cd87",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "7d7ea4683f70f5a5473a887e5a06df1cd3dbc25e4d351e35c2583edd9d5e2e57",
+        ".lake/packages/StrataDDM/lean-toolchain": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2",
+        ".lake/packages/StrataDDM/lake-manifest.json": "27b7525ebdc70da636b230068e8ba7c2298796b412d7f8d5d34d1ceb6f9efeb5",
+        ".lake/packages/StrataDDM/lakefile.toml": "6ecf6e889572817019775db9235204539d1b1dd9078dc87a8cb1c1ffa9822160"
+      }
+    },
+    "snapshot-ac0b4cb61b101244405b": {
+      "repository": "https://github.com/strata-org/Strata",
+      "lean_version": "v4.27.0",
+      "revision": "4348c65a93a3b57b1a4541991ed2d2fcdd9fa35d",
+      "kind": "repository",
+      "lean_commit": "db93fe1608548721853390a10cd40580fe7d22ae",
+      "required_files": {
+        "lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        "lake-manifest.json": "4e046692bc9ffb00a1a64fe7c8d57d820cf08d04fe919c55268ce748b64ea687",
+        "lakefile.toml": "389cd71cbedc755e82573ed64f516fbdaafcbb53bee8e9a0ae08779e9adf2ba1",
+        "Strata/Languages/Core/StatementSemanticsProps.lean": "6a8c0061e0bd2b4268b867fd183ee28db57ef8637fb3510171d031acb097eaa1",
+        ".lake/packages/plausible/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "7d7ea4683f70f5a5473a887e5a06df1cd3dbc25e4d351e35c2583edd9d5e2e57"
+      }
+    },
+    "snapshot-a8ae8c30534809f4c8e2": {
+      "repository": "https://github.com/leanprover-community/physlib",
+      "lean_version": "v4.32.0",
+      "revision": "c48433678e8fb6306ebcd48453300c8e16058a62",
+      "kind": "repository",
+      "lean_commit": "8c9756b28d64dab099da31a4c09229a9e6a2ef35",
+      "required_files": {
+        "lean-toolchain": "cc346fd7850a83fb7af3902dfc378f74d8eb8c59c6d34322488269ebfe7615b1",
+        "lake-manifest.json": "6ad3d2c817faf74f7b8ca67483dc46e498b4a4e24482600914fa9839e7eb1e27",
+        "lakefile.toml": "363203af4cc4973b3185fa72cb9592e070aeba7a3c6bfa16e97ad96fd85a0105",
+        "Physlib/Mathematics/VariationalCalculus/Basic.lean": "ac7683ecbd03b7749d929b13eeb09b8021cef7b5b2125dc20d74007edb677a65",
+        ".lake/packages/mathlib/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/mathlib/lake-manifest.json": "015c7e00ead0f05f2a72b32d9bdef782d4689d05a6297f0ceb0ab5d196c164bd",
+        ".lake/packages/mathlib/lakefile.lean": "e3e8ac4d3ea441b062dbd29a2910165e55d8463c8bd9a3feb830cf6fb64a1b7a",
+        ".lake/packages/doc-gen4/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/doc-gen4/lake-manifest.json": "d3b8d921ea10c8c285c3307f45ff81c4da7843036da5bce76f4d4d938cd3af0f",
+        ".lake/packages/doc-gen4/lakefile.lean": "11dd006db6cf7d99ed0f05e54c27d757b7b78af20ff453c48a7e9374484d1cf3",
+        ".lake/packages/plausible/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/importGraph/lake-manifest.json": "c8028cb25d859d531af43c02ca1ead5cd95a95f34f180f1544cee17316dd1703",
+        ".lake/packages/importGraph/lakefile.toml": "fdd58c5f7fa7d1377e7ede7eec3a358a977aaad958705c5b7640659c23e05751",
+        ".lake/packages/proofwidgets/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/aesop/lake-manifest.json": "d2bdbc6c14453f7ab86baee6fc23111588531bdbdddd0e5f56179f34c89994bb",
+        ".lake/packages/aesop/lakefile.toml": "1e341b858f1375729626764e6206853896d86876956c30fcf9ebe020dd96afe4",
+        ".lake/packages/Qq/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "acadcd8beb13a53a4ac9399e6706c829309d2380f338d13b037886666f978015",
+        ".lake/packages/leansqlite/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/leansqlite/lake-manifest.json": "319a30fcf0e03a389503a5b19cba89fefb20185a201d91adad1c8c5c93bd7ba3",
+        ".lake/packages/leansqlite/lakefile.lean": "c9a14d3b316a10476af05be7ae23b7914ccce87d760d1bf47486fd46d1998e64",
+        ".lake/packages/Cli/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        ".lake/packages/UnicodeBasic/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/UnicodeBasic/lake-manifest.json": "d9658a78ef40bc761152950f54b13927ae93499a459a45c9d7bbbf352fabe17d",
+        ".lake/packages/UnicodeBasic/lakefile.lean": "f6b5b9d6f4d3c43338f0a601d833703467cc058c6ad4c63d95f4f93ed041171e",
+        ".lake/packages/BibtexQuery/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/BibtexQuery/lake-manifest.json": "443354c1c6283e694ba2abf7b035a6e0c616803b05a72d5210cab32a3dfe387b",
+        ".lake/packages/BibtexQuery/lakefile.toml": "c7269c20db543bd142a084d6d24712bf99bf99147fc09b4a5d6139647bea69c6",
+        ".lake/packages/MD4Lean/lean-toolchain": "9cfb1ab9951dba1fe8ba3df3ed50b53a0aa89e6554e929bdceae0a5a1c6563eb",
+        ".lake/packages/MD4Lean/lake-manifest.json": "e6a52fefebe3f7e85914ad0d09abd12a49202505e614a85a8b091767e7a0be57",
+        ".lake/packages/MD4Lean/lakefile.lean": "6e42ca14dad0744da736c01fc6311d22853748ba636804007a001a8a73cc2099",
+        "Physlib/Electromagnetism/Dynamics/IsExtrema.lean": "2ff8a0f8cb3586b411660c3f1dd8c405a43dc23259a92cbc123da19326b1da74",
+        "Physlib/QFT/PerturbationTheory/WickAlgebra/TimeOrder.lean": "c04b61295b56d5a152dc60da9ae87b8c5dbd49d059126097e8c495fe5b5aa40e"
+      }
+    },
+    "snapshot-323e1e942d8611a8c287": {
+      "repository": "https://github.com/leanprover/cslib",
+      "lean_version": "v4.33.0-rc2",
+      "revision": "3aa9d4416c185e0b9faeb72bbd65abe85b95dbcc",
+      "kind": "repository",
+      "lean_commit": "d8b18978322de05a8f3dba51ef03cf5461676c17",
+      "required_files": {
+        "lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        "lake-manifest.json": "89a08e53b2d8c1ac5a3db9594b65798f719b38216f0e8bc00417540c5246ad10",
+        "lakefile.toml": "cd9af19b2790317a5bbb4a7c0d6a7a63d5e624dc264e99fcbcaaa2ea36b178e7",
+        "Cslib/Languages/LambdaCalculus/LocallyNameless/Fsub/Safety.lean": "84599a77c2cabc8cf698ee2749dec333ac08ace7ded115f20ff775a1c6c72233",
+        ".lake/packages/mathlib/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/mathlib/lake-manifest.json": "dda18c5b9f729cc6d564ccf555e2d7914439e6407b0df1cd26a91c0d8748c98f",
+        ".lake/packages/mathlib/lakefile.lean": "9618b4491ba2a0ce2edde2cd29a6ff12974ccec5b331773ad0ae679cbebbc857",
+        ".lake/packages/plausible/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/importGraph/lake-manifest.json": "fa9c45f89d24deff0ef712948e08be176051a7848e5e574220bf425b42e90aed",
+        ".lake/packages/importGraph/lakefile.toml": "daf75232ac4769bdd18994dfc95f744fc42c1ca73ef33451ac4c6b6075bfb8f1",
+        ".lake/packages/proofwidgets/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/aesop/lake-manifest.json": "c70b1cb760ec9e1d9efeb4d4b6000713e7602d353c93d44ac2758639cdfa041f",
+        ".lake/packages/aesop/lakefile.toml": "370a604edd90aa84c687fb8659819fd3a87acc9b595fda184d9ae9cfc8364e87",
+        ".lake/packages/Qq/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "acadcd8beb13a53a4ac9399e6706c829309d2380f338d13b037886666f978015",
+        ".lake/packages/Cli/lean-toolchain": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        "Cslib/Languages/CombinatoryLogic/Confluence.lean": "6042b6d5bf9bb9a1668b48a46f56f87713cf0c963a35da1b5b6b1f94943fb1ba",
+        "Cslib/Languages/CCS/BehaviouralTheory.lean": "ab051b1bb5547a874efe3491ed0c9acc785de2234344046c0d95d4dee178f73e"
+      }
+    },
+    "snapshot-9b1ac7b6147945b097df": {
+      "repository": "https://github.com/leanprover/cslib",
+      "lean_version": "v4.32.0",
+      "revision": "197a7be621263b84c67ca4f803f69205b36d06df",
+      "kind": "repository",
+      "lean_commit": "8c9756b28d64dab099da31a4c09229a9e6a2ef35",
+      "required_files": {
+        "lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        "lake-manifest.json": "e346d56ec27dee0e1647b93204903d0d78be6bb535e405926087e3c906234cd2",
+        "lakefile.toml": "e0412daf10ba26001d837b14f8809f34b5fc0a15bcfbf2ee9349d3e670615e86",
+        "Cslib/Languages/LambdaCalculus/LocallyNameless/Fsub/Safety.lean": "84599a77c2cabc8cf698ee2749dec333ac08ace7ded115f20ff775a1c6c72233",
+        ".lake/packages/mathlib/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/mathlib/lake-manifest.json": "015c7e00ead0f05f2a72b32d9bdef782d4689d05a6297f0ceb0ab5d196c164bd",
+        ".lake/packages/mathlib/lakefile.lean": "e3e8ac4d3ea441b062dbd29a2910165e55d8463c8bd9a3feb830cf6fb64a1b7a",
+        ".lake/packages/plausible/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/importGraph/lake-manifest.json": "c8028cb25d859d531af43c02ca1ead5cd95a95f34f180f1544cee17316dd1703",
+        ".lake/packages/importGraph/lakefile.toml": "fdd58c5f7fa7d1377e7ede7eec3a358a977aaad958705c5b7640659c23e05751",
+        ".lake/packages/proofwidgets/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/aesop/lake-manifest.json": "d2bdbc6c14453f7ab86baee6fc23111588531bdbdddd0e5f56179f34c89994bb",
+        ".lake/packages/aesop/lakefile.toml": "1e341b858f1375729626764e6206853896d86876956c30fcf9ebe020dd96afe4",
+        ".lake/packages/Qq/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "acadcd8beb13a53a4ac9399e6706c829309d2380f338d13b037886666f978015",
+        ".lake/packages/Cli/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        "Cslib/Languages/CombinatoryLogic/Confluence.lean": "92462bbd4a4b0c671bdcefc57df3b910fc8f9a640fec668a024d9f1b6e0a0de9",
+        "Cslib/Languages/CCS/BehaviouralTheory.lean": "d08a2996a8afa14dca972376a50530677214b54d870aa95d98ae23ac69b4fb61"
+      }
+    },
+    "snapshot-1c85ed04b32edaad5ca7": {
+      "repository": "https://github.com/leanprover/cslib",
+      "lean_version": "v4.31.0",
+      "revision": "8ea71c8df91acd63285515a04da952b23b78d266",
+      "kind": "repository",
+      "lean_commit": "68218e876d2a38b1985b8590fff244a83c321783",
+      "required_files": {
+        "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        "lake-manifest.json": "b328964c27a1eaa3f92d24f320fbdd3d987666ea102f8e3ebcf4e82c96461d2c",
+        "lakefile.toml": "0d236bf0f173fa7ef490605a32f9d5cc3cf1b214a34a02f7919af37ad4d20c54",
+        "Cslib/Languages/LambdaCalculus/LocallyNameless/Fsub/Safety.lean": "c328c3471591c7474a61ce59249e2d59dfcdf7940f6ec8f9f677bd8f55b518b0",
+        ".lake/packages/mathlib/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/mathlib/lake-manifest.json": "6f226b135055dccff3e733abfc465a026f8ded1e6e235408365b54193186665d",
+        ".lake/packages/mathlib/lakefile.lean": "a2bffc44a8baa126d9098117dfc28d77040a8a4aee78fe4ba491274b97cba551",
+        ".lake/packages/plausible/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/importGraph/lake-manifest.json": "53f5a56ce65cef7b34a6fb4d6d9d02ba65994d3394f39668b06bf79311d778b1",
+        ".lake/packages/importGraph/lakefile.toml": "c723042dd3bc34e8a974b60c42cb73945f89615659df2c10a82195b3d89dab6c",
+        ".lake/packages/proofwidgets/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/aesop/lake-manifest.json": "7908ff805a9e4f06d7a6090f4e7e7039069bbc46fe1c53a290a288a73d968f4a",
+        ".lake/packages/aesop/lakefile.toml": "388d00385a0c288759c3b78dbff933298b7eb0c2f969d5fa45dac7f7761c6c25",
+        ".lake/packages/Qq/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "fc669e938aab5d42b7fbab318f2881b210f36dcf57f59d8f5a2f3a00771fe4b4",
+        ".lake/packages/Cli/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        "Cslib/Languages/CombinatoryLogic/Confluence.lean": "b9e0b9f7b499f0aeec14008c08d373aa8766aca665debb3e2b1cb20481f91d19",
+        "Cslib/Languages/CCS/BehaviouralTheory.lean": "d08a2996a8afa14dca972376a50530677214b54d870aa95d98ae23ac69b4fb61"
+      }
+    },
+    "snapshot-100e913a3759b84bb98e": {
+      "repository": "https://github.com/leanprover/cslib",
+      "lean_version": "v4.30.0",
+      "revision": "c7944a9fb44c3298f1a960a5e574ab23a6ab8ed5",
+      "kind": "repository",
+      "lean_commit": "d024af099ca4bf2c86f649261ebf59565dc8c622",
+      "required_files": {
+        "lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        "lake-manifest.json": "6654a267804e24dd5aa5c92c41ddbd7bde8610db0024398b379f20de1b9693ad",
+        "lakefile.toml": "fc2b3ed2f54e0d8ac24aee69755277ff35ea99001f22e8745c164710c2d6dcac",
+        "Cslib/Languages/CombinatoryLogic/Confluence.lean": "26128c54b0612a8b384cff4a9acf027e1e9f6976ab3cf94cdba2af170678b97f",
+        ".lake/packages/mathlib/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/mathlib/lake-manifest.json": "1ffeaefb8feffb4ea9c4826b952882bfc54df39fd8c9952acb066eccb841b1a8",
+        ".lake/packages/mathlib/lakefile.lean": "3f9840acc08c7b701ff19d12c81dfe765e416086cdff6607feda3899f977c246",
+        ".lake/packages/plausible/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/importGraph/lake-manifest.json": "fa76da07d520310f6fe0171162d1d3ba24411212c6f62b4810edadbaa7e4a537",
+        ".lake/packages/importGraph/lakefile.toml": "4960f52a36071cfbf8df056044ad7e489bd17d5f26329c292fdd3f0ed19f4957",
+        ".lake/packages/proofwidgets/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/aesop/lake-manifest.json": "27c3fc9265707a72351134a1d4b708c30d5f52c4386324e8a3f9a3a59e129890",
+        ".lake/packages/aesop/lakefile.toml": "8c089d9ee6732fdc484b4ca5c615d67a2d4a87958ed3d46a1793a00b143e0f37",
+        ".lake/packages/Qq/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "068dce8be1814b209779a609fa2035821962d22d630a3ddf24ed137e73c6b5b5",
+        ".lake/packages/Cli/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186"
+      }
+    },
+    "snapshot-ec689b01a8e8062353f6": {
+      "repository": "https://github.com/Verified-zkEVM/ArkLib",
+      "lean_version": "v4.31.0",
+      "revision": "c1712f6c496d0aef04f09bae42aec13811b3273f",
+      "kind": "repository",
+      "lean_commit": "68218e876d2a38b1985b8590fff244a83c321783",
+      "required_files": {
+        "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        "lake-manifest.json": "4c3b72432423719bd83c5edbbc2d7750bb7cc2708b43743d5026ee49a141dc39",
+        "lakefile.toml": "f1de06f1b58a7f069cf6cf505981db3d400bd4daee22d838f6649f2856672520",
+        "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean": "7b6cd84808024e67fa8aadde67e7953e67ed5f5e4ecd69ac0c061143f69cffac",
+        ".lake/packages/CompPoly/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/CompPoly/lake-manifest.json": "3398f2282d63a7d294e97a0912cbe6ac888312e7d57e8b6b56a1b5894c679ff8",
+        ".lake/packages/CompPoly/lakefile.lean": "c68c5506c3e7515286285db495d5fd824ecde6cc346160437a3bdea52c96102d",
+        ".lake/packages/checkdecls/lean-toolchain": "47d4f1cac0535e8e521ab625171eafcf391e6911ae4d3553c942b33045488a3e",
+        ".lake/packages/checkdecls/lake-manifest.json": "ab28edadb6878b3e989cfa664598f2f50fb0b1aeaa1e80d9f0d49b22f39aa0dd",
+        ".lake/packages/checkdecls/lakefile.lean": "d77426bde91cc5e04eb81c6550be94a739700b52dc9477f8c0ef87094fbb6837",
+        ".lake/packages/doc-gen4/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/doc-gen4/lake-manifest.json": "aeae353eec66d31a153ee1d6397c96bbbdcce06dbc12cda71d3ef17878312464",
+        ".lake/packages/doc-gen4/lakefile.lean": "0701a87bc82d0bf544c09b53a276191ca08edf83958cba0562c2ee0ddcf24bdf",
+        ".lake/packages/VCVio/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/VCVio/lake-manifest.json": "7ebd3f12e1ccfaba5f50a886d451e08c09ce2914f7bb2caa9d707bc22cb78e8d",
+        ".lake/packages/VCVio/lakefile.lean": "35e96c7c0b1a95cab828b557d12acfb0859a493561821d014a2059a1ed939f3e",
+        ".lake/packages/mathlib/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/mathlib/lake-manifest.json": "6f226b135055dccff3e733abfc465a026f8ded1e6e235408365b54193186665d",
+        ".lake/packages/mathlib/lakefile.lean": "a2bffc44a8baa126d9098117dfc28d77040a8a4aee78fe4ba491274b97cba551",
+        ".lake/packages/leansqlite/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/leansqlite/lake-manifest.json": "319a30fcf0e03a389503a5b19cba89fefb20185a201d91adad1c8c5c93bd7ba3",
+        ".lake/packages/leansqlite/lakefile.lean": "c9a14d3b316a10476af05be7ae23b7914ccce87d760d1bf47486fd46d1998e64",
+        ".lake/packages/Cli/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        ".lake/packages/UnicodeBasic/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/UnicodeBasic/lake-manifest.json": "d9658a78ef40bc761152950f54b13927ae93499a459a45c9d7bbbf352fabe17d",
+        ".lake/packages/UnicodeBasic/lakefile.lean": "f6b5b9d6f4d3c43338f0a601d833703467cc058c6ad4c63d95f4f93ed041171e",
+        ".lake/packages/BibtexQuery/lean-toolchain": "b70e83fdafb733d5d011c8dd1dec4e9c4979566fb5a3c2b603ac0c1dfdb15971",
+        ".lake/packages/BibtexQuery/lake-manifest.json": "34d2b47f9f3ce568b5695160888375e13b9a31aef4c2377b15713a0d33115272",
+        ".lake/packages/BibtexQuery/lakefile.toml": "2d7aa4439f3877d2ad3393ce884ffbed14caf93792753108a884864ba0be5ac6",
+        ".lake/packages/MD4Lean/lean-toolchain": "9cfb1ab9951dba1fe8ba3df3ed50b53a0aa89e6554e929bdceae0a5a1c6563eb",
+        ".lake/packages/MD4Lean/lake-manifest.json": "e6a52fefebe3f7e85914ad0d09abd12a49202505e614a85a8b091767e7a0be57",
+        ".lake/packages/MD4Lean/lakefile.lean": "a9c7d0f4e9031623f0effb6468d2b0cef12ce2516ac76afe285d9ef7e4f50564",
+        ".lake/packages/PolyFun/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/PolyFun/lake-manifest.json": "4bfcb1137adafdbcec744985822f1a44817b13d069fa10e7ef33bf142763ffe3",
+        ".lake/packages/PolyFun/lakefile.toml": "8128f0863bd4ce6d665dce1e36f37246e8871159f2c4d404bc6a79d5158955ac",
+        ".lake/packages/loom2/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/loom2/lake-manifest.json": "050e4da989603b56bf430144dd68406c2f5a858fb6b9c1ab6ae47e5e3ac408cd",
+        ".lake/packages/loom2/lakefile.toml": "977fda4e21f81f2a2a078ee2d1e53666af345bfe2d96e81f2b959dc1613ff326",
+        ".lake/packages/plausible/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/importGraph/lake-manifest.json": "53f5a56ce65cef7b34a6fb4d6d9d02ba65994d3394f39668b06bf79311d778b1",
+        ".lake/packages/importGraph/lakefile.toml": "c723042dd3bc34e8a974b60c42cb73945f89615659df2c10a82195b3d89dab6c",
+        ".lake/packages/proofwidgets/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/aesop/lake-manifest.json": "7908ff805a9e4f06d7a6090f4e7e7039069bbc46fe1c53a290a288a73d968f4a",
+        ".lake/packages/aesop/lakefile.toml": "388d00385a0c288759c3b78dbff933298b7eb0c2f969d5fa45dac7f7761c6c25",
+        ".lake/packages/Qq/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "fc669e938aab5d42b7fbab318f2881b210f36dcf57f59d8f5a2f3a00771fe4b4",
+        "ArkLib/Data/CodingTheory/ProximityGap/DG25/MainResults.lean": "5ed5afbd2f8a11f27701c8135eebac4db9dd9f30184ec759d78f6e43a5702531"
+      }
+    },
+    "snapshot-a92e34e6197dbc863607": {
+      "repository": "https://github.com/Verified-zkEVM/ArkLib",
+      "lean_version": "v4.30.0",
+      "revision": "e6d77b18ca1334a91faf4d1ccf9f96d854d58ba4",
+      "kind": "repository",
+      "lean_commit": "d024af099ca4bf2c86f649261ebf59565dc8c622",
+      "required_files": {
+        "lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        "lake-manifest.json": "836e09e2550903e184890e985f87f9be5ec0b01e174408fe6ac134a2bf10d96a",
+        "lakefile.toml": "26b2f20bb5a5ba3b8e34c51b5c93192f6d8b683a3bfd8744e3724de17c6d9edb",
+        "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean": "bee74a914714a136db0f48690db7f0bd317a82311e3f320414b74e3894f5a6a2",
+        ".lake/packages/CompPoly/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/CompPoly/lake-manifest.json": "e7f50c2d8148df23c3e167038d434575f00c2628526f419d24485f9237ca0898",
+        ".lake/packages/CompPoly/lakefile.lean": "605ef42394de236bb170c6bd56d94031a60a569dcf06a2c90f3d5aabd871af40",
+        ".lake/packages/checkdecls/lean-toolchain": "47d4f1cac0535e8e521ab625171eafcf391e6911ae4d3553c942b33045488a3e",
+        ".lake/packages/checkdecls/lake-manifest.json": "ab28edadb6878b3e989cfa664598f2f50fb0b1aeaa1e80d9f0d49b22f39aa0dd",
+        ".lake/packages/checkdecls/lakefile.lean": "d77426bde91cc5e04eb81c6550be94a739700b52dc9477f8c0ef87094fbb6837",
+        ".lake/packages/doc-gen4/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/doc-gen4/lake-manifest.json": "f2d25b84d3e76f6f1077482729c9497fa50e96879e71dbcb7e3c0448d2f0e2e4",
+        ".lake/packages/doc-gen4/lakefile.lean": "0701a87bc82d0bf544c09b53a276191ca08edf83958cba0562c2ee0ddcf24bdf",
+        ".lake/packages/VCVio/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/VCVio/lake-manifest.json": "215d50022f0306b5fda10468d0ce678c487a9b74d77120d94330b837da9e1187",
+        ".lake/packages/VCVio/lakefile.lean": "b85e65ac35d6421d5d84f25b5081fd7eb6353f00d2c0fab609a0cfaa8b40d28a",
+        ".lake/packages/mathlib/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/mathlib/lake-manifest.json": "1ffeaefb8feffb4ea9c4826b952882bfc54df39fd8c9952acb066eccb841b1a8",
+        ".lake/packages/mathlib/lakefile.lean": "3f9840acc08c7b701ff19d12c81dfe765e416086cdff6607feda3899f977c246",
+        ".lake/packages/plausible/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "4147957012320a3afe8f041662202b7a3453c8a0df4311c1698da029a3b4834f",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/importGraph/lake-manifest.json": "fa76da07d520310f6fe0171162d1d3ba24411212c6f62b4810edadbaa7e4a537",
+        ".lake/packages/importGraph/lakefile.toml": "4960f52a36071cfbf8df056044ad7e489bd17d5f26329c292fdd3f0ed19f4957",
+        ".lake/packages/proofwidgets/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "0a319fffbf511dab4c3307dc105f8e8fdb4f6160020995cef5f442061cc0abca",
+        ".lake/packages/aesop/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/aesop/lake-manifest.json": "27c3fc9265707a72351134a1d4b708c30d5f52c4386324e8a3f9a3a59e129890",
+        ".lake/packages/aesop/lakefile.toml": "8c089d9ee6732fdc484b4ca5c615d67a2d4a87958ed3d46a1793a00b143e0f37",
+        ".lake/packages/Qq/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/batteries/lake-manifest.json": "67a8bbfcd0c742e05e198714b2d0f3602a3103d838e7427d773a5587555f88a2",
+        ".lake/packages/batteries/lakefile.toml": "068dce8be1814b209779a609fa2035821962d22d630a3ddf24ed137e73c6b5b5",
+        ".lake/packages/Cli/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        ".lake/packages/leansqlite/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/leansqlite/lake-manifest.json": "319a30fcf0e03a389503a5b19cba89fefb20185a201d91adad1c8c5c93bd7ba3",
+        ".lake/packages/leansqlite/lakefile.lean": "c9a14d3b316a10476af05be7ae23b7914ccce87d760d1bf47486fd46d1998e64",
+        ".lake/packages/UnicodeBasic/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/UnicodeBasic/lake-manifest.json": "d9658a78ef40bc761152950f54b13927ae93499a459a45c9d7bbbf352fabe17d",
+        ".lake/packages/UnicodeBasic/lakefile.lean": "f6b5b9d6f4d3c43338f0a601d833703467cc058c6ad4c63d95f4f93ed041171e",
+        ".lake/packages/BibtexQuery/lean-toolchain": "b70e83fdafb733d5d011c8dd1dec4e9c4979566fb5a3c2b603ac0c1dfdb15971",
+        ".lake/packages/BibtexQuery/lake-manifest.json": "34d2b47f9f3ce568b5695160888375e13b9a31aef4c2377b15713a0d33115272",
+        ".lake/packages/BibtexQuery/lakefile.toml": "2d7aa4439f3877d2ad3393ce884ffbed14caf93792753108a884864ba0be5ac6",
+        ".lake/packages/MD4Lean/lean-toolchain": "9cfb1ab9951dba1fe8ba3df3ed50b53a0aa89e6554e929bdceae0a5a1c6563eb",
+        ".lake/packages/MD4Lean/lake-manifest.json": "e6a52fefebe3f7e85914ad0d09abd12a49202505e614a85a8b091767e7a0be57",
+        ".lake/packages/MD4Lean/lakefile.lean": "a9c7d0f4e9031623f0effb6468d2b0cef12ce2516ac76afe285d9ef7e4f50564",
+        ".lake/packages/PolyFun/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+        ".lake/packages/PolyFun/lake-manifest.json": "e3df2f23d0a2382abfff578398671fe48734ba6a7ad14be4b1fdb3074d192050",
+        ".lake/packages/PolyFun/lakefile.toml": "522891f80eaea88d74eacff117971a8f8314900c9e1d422d3e0de135aa2cbfd3",
+        ".lake/packages/loom2/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/loom2/lake-manifest.json": "b1cf46d2f8fff8f5a9ac8f7f7140acbde434d4797803a8d9bad7d703aa15b9aa",
+        ".lake/packages/loom2/lakefile.toml": "78df92c0ec1a7f1c53b7afc1a93a21f172eb50de17bd2599d245544168bf4293",
+        ".lake/packages/Hax/hax-lib/proof-libs/lean/lean-toolchain": "84e554583ebb07a1f2090327bb6038452cbd777b9713a871df17a2c99d563536",
+        ".lake/packages/Hax/hax-lib/proof-libs/lean/lake-manifest.json": "f9d04ef1c4e6289159472a3def2afa1e2b734f09e1db9e087d1f9095a5666ebd",
+        ".lake/packages/Hax/hax-lib/proof-libs/lean/lakefile.toml": "f5cf212862ad162746f7ad893d384259277706ccb53d888eac3c7f9b14d8c914",
+        "ArkLib/Data/CodingTheory/ProximityGap/DG25/MainResults.lean": "93e568c1148ebdef2bcc7ce4db8edfa28af2d36938170729ee5d6a8866bddccf"
+      }
+    },
+    "snapshot-dfc38a98c58210d11850": {
+      "repository": "https://github.com/Verified-zkEVM/ArkLib",
+      "lean_version": "v4.29.0",
+      "revision": "de71a9dfd2f5a343e8895517b7efe857d9f1ce5c",
+      "kind": "repository",
+      "lean_commit": "98dc76e3c0a9b856c9b98726b713fb04fab16740",
+      "required_files": {
+        "lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        "lake-manifest.json": "86290b7bac9709597c5f29e432429b611e35c5c28afb53ee97eebe70b87d591d",
+        "lakefile.toml": "365ed3bd0097f0907a4a637323bb2355f12d6c59737f735ef569abab921260ed",
+        "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean": "bee74a914714a136db0f48690db7f0bd317a82311e3f320414b74e3894f5a6a2",
+        ".lake/packages/CompPoly/lean-toolchain": "85b71aa934e019c03eac6ec5ed97526956b4dff51b54c5d558fca8a5b34703e6",
+        ".lake/packages/CompPoly/lake-manifest.json": "8be35238a6a29ecc40a2d9ee0a4134c71a8922aa80dcc31839877185628c1bd5",
+        ".lake/packages/CompPoly/lakefile.lean": "5f5788f0a30cb5a576cba6585005f7ac8868719de8a3938c15f24641275e4c26",
+        ".lake/packages/checkdecls/lean-toolchain": "47d4f1cac0535e8e521ab625171eafcf391e6911ae4d3553c942b33045488a3e",
+        ".lake/packages/checkdecls/lake-manifest.json": "ab28edadb6878b3e989cfa664598f2f50fb0b1aeaa1e80d9f0d49b22f39aa0dd",
+        ".lake/packages/checkdecls/lakefile.lean": "d77426bde91cc5e04eb81c6550be94a739700b52dc9477f8c0ef87094fbb6837",
+        ".lake/packages/doc-gen4/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/doc-gen4/lake-manifest.json": "88cb732e454da1ef07b9d3daa6ef5987f2501978514c45ac1acf0ee570eebffb",
+        ".lake/packages/doc-gen4/lakefile.lean": "1bffd468899801bc7f7ddc6e0cba42f7b0fbd5e943ef68daaf73a2fcfae49ba9",
+        ".lake/packages/VCVio/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/VCVio/lake-manifest.json": "a4bb0ad63321c3256a1f5b6bc0817f289b0e9c652fac28e7a0e343b35d18b066",
+        ".lake/packages/VCVio/lakefile.lean": "4de1c4fbacb8402963534d0c1ead15474625814ab1e8eacba9532a2dae034e02",
+        ".lake/packages/ExtTreeMapLemmas/lean-toolchain": "85b71aa934e019c03eac6ec5ed97526956b4dff51b54c5d558fca8a5b34703e6",
+        ".lake/packages/ExtTreeMapLemmas/lake-manifest.json": "404ae6ac459b0ae6872fa19f3cc630ed2d0cde0bf9d7106b3a02b9f0237a82e6",
+        ".lake/packages/ExtTreeMapLemmas/lakefile.lean": "90ce1be61f96f285084aa9cfb06907a2cff66a863458a4827e9c3f96c3339107",
+        ".lake/packages/mathlib/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/mathlib/lake-manifest.json": "0c9dbccb6c8e01c84ea149fdb404df34162426e1b4c82ab3a1ebd3b6f46d3eba",
+        ".lake/packages/mathlib/lakefile.lean": "18a70146bd736f9b843afa6ec20a861c23af6872066d95889d2b80422199ab3c",
+        ".lake/packages/plausible/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "7d7ea4683f70f5a5473a887e5a06df1cd3dbc25e4d351e35c2583edd9d5e2e57",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/importGraph/lake-manifest.json": "e92239410474f8be29f252e0d3ed2fce35a74ca8f0475393dd735d25251f0a5f",
+        ".lake/packages/importGraph/lakefile.toml": "a8f20d6026dad5882d8beb4ca739edabde9d43c9529224c90f712a6f2d5e89a2",
+        ".lake/packages/proofwidgets/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "001fa1dd08298e91883e99c5bd4742d4c7450aaf7c890eb0d21a3f2070bcb4ec",
+        ".lake/packages/aesop/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/aesop/lake-manifest.json": "1ec8cd733a14b09e1b2485becd1bfcae20250188ef5c24102e43d1fc48ffaffb",
+        ".lake/packages/aesop/lakefile.toml": "34ec67c692c14a663520fff8b3dfbcf116b0307bb20d039bca6373765c3f45c4",
+        ".lake/packages/Qq/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/batteries/lake-manifest.json": "22a517fadc44c10f21330be6f4ec69d1f5026882e0d2b157d5459a8e7b720d09",
+        ".lake/packages/batteries/lakefile.toml": "fb3b985a0fd025a75f96372f983e9614af482bf27ac8e869fcc84b64a28a488f",
+        ".lake/packages/Cli/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        ".lake/packages/leansqlite/lean-toolchain": "dc6d65016fad3123d44bf17b5bf0598286284ab16ba75d5c17eb22ed11f47361",
+        ".lake/packages/leansqlite/lake-manifest.json": "990dd8357e323ee8998ee424c9bc91ebdc074ce9e68e3a555729a9f40a7bdc5b",
+        ".lake/packages/leansqlite/lakefile.lean": "77f7c03f990258a52a30106245590ed96c4710c872eb20901b592f8a66c02e88",
+        ".lake/packages/UnicodeBasic/lean-toolchain": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+        ".lake/packages/UnicodeBasic/lake-manifest.json": "b8001356cb6f9732d4cc8104f60195080b21c450649da2fcd3a2228b2d717f30",
+        ".lake/packages/UnicodeBasic/lakefile.lean": "bbc4cfa444dd1bc6c1ca886161bab749230aed5951038124536b953a01bf7ff0",
+        ".lake/packages/BibtexQuery/lean-toolchain": "b70e83fdafb733d5d011c8dd1dec4e9c4979566fb5a3c2b603ac0c1dfdb15971",
+        ".lake/packages/BibtexQuery/lake-manifest.json": "34d2b47f9f3ce568b5695160888375e13b9a31aef4c2377b15713a0d33115272",
+        ".lake/packages/BibtexQuery/lakefile.toml": "2d7aa4439f3877d2ad3393ce884ffbed14caf93792753108a884864ba0be5ac6",
+        ".lake/packages/MD4Lean/lean-toolchain": "9cfb1ab9951dba1fe8ba3df3ed50b53a0aa89e6554e929bdceae0a5a1c6563eb",
+        ".lake/packages/MD4Lean/lake-manifest.json": "e6a52fefebe3f7e85914ad0d09abd12a49202505e614a85a8b091767e7a0be57",
+        ".lake/packages/MD4Lean/lakefile.lean": "a9c7d0f4e9031623f0effb6468d2b0cef12ce2516ac76afe285d9ef7e4f50564",
+        "ArkLib/Data/CodingTheory/ProximityGap/DG25/MainResults.lean": "93e568c1148ebdef2bcc7ce4db8edfa28af2d36938170729ee5d6a8866bddccf"
+      }
+    },
+    "snapshot-6050fa19f79e3d9aa13c": {
+      "repository": "https://github.com/Verified-zkEVM/ArkLib",
+      "lean_version": "v4.28.0",
+      "revision": "673fa440714eb1949b8b50a28f2a4f52b1837e9b",
+      "kind": "repository",
+      "lean_commit": "7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+      "required_files": {
+        "lean-toolchain": "26df5f74b79af0cd9e298b6583993699a54938d047ba1919428da80d3ae80c6e",
+        "lake-manifest.json": "059fe674160b08a95ad82db36c544dd2ede977641e9a1560d3caf2503237630f",
+        "lakefile.toml": "c669ae0655761cb4cf2c4803e4594fb031e4ebfb0f4a890a831e8a5fb6e2b2d9",
+        "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean": "d499d34aa6260d607a3c2b6aecdb0dec7ac8c3592829e8c3d263a7ee7131e851",
+        ".lake/packages/CompPoly/lean-toolchain": "26df5f74b79af0cd9e298b6583993699a54938d047ba1919428da80d3ae80c6e",
+        ".lake/packages/CompPoly/lake-manifest.json": "11aef1362dd2fcc0aada7c008edda7b12290d2caadd625172cbc4a9d15463b50",
+        ".lake/packages/CompPoly/lakefile.lean": "bce3e9ac8fdf24f9a2b60e7cb73a28ebb58309958f8634f5fc78f68beaf2be31",
+        ".lake/packages/checkdecls/lean-toolchain": "47d4f1cac0535e8e521ab625171eafcf391e6911ae4d3553c942b33045488a3e",
+        ".lake/packages/checkdecls/lake-manifest.json": "ab28edadb6878b3e989cfa664598f2f50fb0b1aeaa1e80d9f0d49b22f39aa0dd",
+        ".lake/packages/checkdecls/lakefile.lean": "d77426bde91cc5e04eb81c6550be94a739700b52dc9477f8c0ef87094fbb6837",
+        ".lake/packages/doc-gen4/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/doc-gen4/lake-manifest.json": "43ac1564b0b881fe50d58666f3b9ffb7649e1abefcdca0bca287698a825e3bce",
+        ".lake/packages/doc-gen4/lakefile.lean": "1374c533085ff3a81eeec226c35a92c11ae33362cbf1836296d5c1d47cd9ef4b",
+        ".lake/packages/VCVio/lean-toolchain": "26df5f74b79af0cd9e298b6583993699a54938d047ba1919428da80d3ae80c6e",
+        ".lake/packages/VCVio/lake-manifest.json": "e718ceaec9cd01ef0b92fca962dbabf8cca8191b630ca9314f4465134adf06d3",
+        ".lake/packages/VCVio/lakefile.lean": "760bbbd67a0d5cfa4c02a41e3b0333144831f187a737aee43100a229beb861f1",
+        ".lake/packages/ExtTreeMapLemmas/lean-toolchain": "26df5f74b79af0cd9e298b6583993699a54938d047ba1919428da80d3ae80c6e",
+        ".lake/packages/ExtTreeMapLemmas/lake-manifest.json": "210a3299c40f8fa550e5dea98646fc7706f957ecfbfe38763ee30b1d69d0fd79",
+        ".lake/packages/ExtTreeMapLemmas/lakefile.lean": "60de9cec64272a0a4c3a9e4f690c590ac0be4e48ccaa33d445347f187dbe843e",
+        ".lake/packages/mathlib/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/mathlib/lake-manifest.json": "a89b59a9c917d113c32b931cc82a6b919d50be80ec1a701612f571bcd34f245a",
+        ".lake/packages/mathlib/lakefile.lean": "140009c5bc96a83972c1cd856e393f9a4ad9134bbe46b2194c73c5fba78d3443",
+        ".lake/packages/plausible/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "7d7ea4683f70f5a5473a887e5a06df1cd3dbc25e4d351e35c2583edd9d5e2e57",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/importGraph/lake-manifest.json": "ed3d8d8816e54482e51519a090f5c9e4d322a1f0f2ca05b8b217ea27bc2a1413",
+        ".lake/packages/importGraph/lakefile.toml": "86c3279e231d5d13a366ed1cb6d5990c0514e9df783f647bc712434eb7c22f6f",
+        ".lake/packages/proofwidgets/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "001fa1dd08298e91883e99c5bd4742d4c7450aaf7c890eb0d21a3f2070bcb4ec",
+        ".lake/packages/aesop/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/aesop/lake-manifest.json": "441d71e533ae61fe9b6909aa97ef698ba420d677577770ed9ecd56ee136d4fca",
+        ".lake/packages/aesop/lakefile.toml": "8d1dc03db8fe788a1ce0af71c871c1198362475b7fd2ec7d17641b60047497e8",
+        ".lake/packages/Qq/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/batteries/lake-manifest.json": "22a517fadc44c10f21330be6f4ec69d1f5026882e0d2b157d5459a8e7b720d09",
+        ".lake/packages/batteries/lakefile.toml": "fb3b985a0fd025a75f96372f983e9614af482bf27ac8e869fcc84b64a28a488f",
+        ".lake/packages/Cli/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186",
+        ".lake/packages/UnicodeBasic/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/UnicodeBasic/lake-manifest.json": "b8001356cb6f9732d4cc8104f60195080b21c450649da2fcd3a2228b2d717f30",
+        ".lake/packages/UnicodeBasic/lakefile.lean": "bc5c8e0267f11745d3cfb139f4133fee58e0af5fe50589f916fe573dd7f53635",
+        ".lake/packages/BibtexQuery/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+        ".lake/packages/BibtexQuery/lake-manifest.json": "71e5466f25bf8aa26ba48e9dfc6de6f7142ca8c49e7e02ce28c758b02286ba07",
+        ".lake/packages/BibtexQuery/lakefile.toml": "49574b8fbb81026d1b27752623cfab4d427dcb726ca344085a1b9c2e3b81767c",
+        ".lake/packages/MD4Lean/lean-toolchain": "2c34e7445612ea4bbe13dabe03798e12db1c60f3ddd5f7bb72ee73703b975963",
+        ".lake/packages/MD4Lean/lake-manifest.json": "e6a52fefebe3f7e85914ad0d09abd12a49202505e614a85a8b091767e7a0be57",
+        ".lake/packages/MD4Lean/lakefile.lean": "a9c7d0f4e9031623f0effb6468d2b0cef12ce2516ac76afe285d9ef7e4f50564"
+      }
+    },
+    "snapshot-a0da268124351a5ecd7b": {
+      "repository": "https://github.com/leanprover-community/mathlib4",
+      "lean_version": "v4.25.0",
+      "revision": "1ccd71f89cbbd82ae7d097723ce1722ca7b01c33",
+      "kind": "putnam",
+      "lean_commit": "cdd38ac5115bdeec5f609e9126cce00f51ae88b3",
+      "required_files": {
+        "lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        "lake-manifest.json": "3dd6c82ed40ebf655924233100ad6f425e59ab810d054a28f474cf2a22c3642d",
+        "lakefile.toml": "435d8b3995ec4c6da5601b66b19603451a80a9ef5b2b2af01ef75038ac20233c",
+        ".lake/packages/mathlib/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/mathlib/lake-manifest.json": "6edd73147043760dd546f19a3b73c062460e021764aeed539c6fe97c8bd769c7",
+        ".lake/packages/mathlib/lakefile.lean": "e03c2781e4f10353104e6774914e3fb200367aca82fa30defc7bf0f19e14e435",
+        ".lake/packages/plausible/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "204a15b2bf49e2c63ca9f4de48318d74c9cb81e99d6fd877f559eda3c6b3ff75",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "58eb91f539d17adf6959f335af71a950b8afe83ba8e0df21ddb1c221d25a71d1",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "290ab037098aceb2746ced528b00a0644835236214e7ca18a16e0ab62fbf3baf",
+        ".lake/packages/importGraph/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/importGraph/lake-manifest.json": "f736235826a918957911158c88e44b2c40d2a3f3d4a50a9593b3e569290274a2",
+        ".lake/packages/importGraph/lakefile.toml": "cd67a9d10263af23eafdd4a33608b852c83cf04b6acf68c9a4a84e79fcaca5e2",
+        ".lake/packages/proofwidgets/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "e9d13b90a2e7c5741d60b344afd436058c9e50e5bdadb49a25dc02fca617c8d6",
+        ".lake/packages/aesop/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/aesop/lake-manifest.json": "3c2295c5f9604b77f6ba94e0db36c5180b07f28d16683cd885dd6e1d81d055ff",
+        ".lake/packages/aesop/lakefile.toml": "169578d7733f6dee1b178884a362f6adab030fbfac2fbe6fc705a106c7a12cdd",
+        ".lake/packages/Qq/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "27430a71e2d52b0b90b299ca029b6b411b98934d73d04f6b7015357067fcc133",
+        ".lake/packages/batteries/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/batteries/lake-manifest.json": "22a517fadc44c10f21330be6f4ec69d1f5026882e0d2b157d5459a8e7b720d09",
+        ".lake/packages/batteries/lakefile.toml": "d70808a467a05ec5eb14d942cf7a770f38301a4652931cf2a3724a888acd0c92",
+        ".lake/packages/Cli/lean-toolchain": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186"
+      }
+    },
+    "snapshot-5769ef49fff3a9aa4aa9": {
+      "repository": "https://github.com/leanprover-community/mathlib4",
+      "lean_version": "v4.26.0",
+      "revision": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+      "kind": "putnam",
+      "lean_commit": "d8204c9fd894f91bbb2cdfec5912ec8196fd8562",
+      "required_files": {
+        "lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        "lake-manifest.json": "c4d72e59d804363620575b432925f6698e87aa0b7496b6598f9765c4147c38e8",
+        "lakefile.toml": "68bf70b00eb1aa3ab0c3482f3b586b34e4773d4381d7fff0e74a775fae589cdf",
+        ".lake/packages/mathlib/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/mathlib/lake-manifest.json": "b787693b47c8d434fcf5999f06b811e444a9fe83c88149476d6a5f64b770e9c1",
+        ".lake/packages/mathlib/lakefile.lean": "9c3256933d833cc9799e6dc23b72c9e502fc8a4ca01b43ee479997785da7041f",
+        ".lake/packages/plausible/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "204a15b2bf49e2c63ca9f4de48318d74c9cb81e99d6fd877f559eda3c6b3ff75",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "58eb91f539d17adf6959f335af71a950b8afe83ba8e0df21ddb1c221d25a71d1",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "290ab037098aceb2746ced528b00a0644835236214e7ca18a16e0ab62fbf3baf",
+        ".lake/packages/importGraph/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/importGraph/lake-manifest.json": "68a3eba644485126c22ec3726432cccac7de465d04b37ab06adcd3507c5d5167",
+        ".lake/packages/importGraph/lakefile.toml": "c304856a27f073c687c184c8ecad5c089caf520c5f995ac1fbe5b14070613b21",
+        ".lake/packages/proofwidgets/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "2b16275da954d759b7a8a4661d16a0cc5f217a76724f7d68a7d9bae8705345da",
+        ".lake/packages/aesop/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/aesop/lake-manifest.json": "9e9f5f6a83116868b0c447d948d1f62fc082ccb2cb4d83f79ec98a3538db8ef6",
+        ".lake/packages/aesop/lakefile.toml": "afe55d5a0a35a379b1622e52fd953c61aade2e9073436641b5f76c65e2d6a34f",
+        ".lake/packages/Qq/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "27430a71e2d52b0b90b299ca029b6b411b98934d73d04f6b7015357067fcc133",
+        ".lake/packages/batteries/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/batteries/lake-manifest.json": "22a517fadc44c10f21330be6f4ec69d1f5026882e0d2b157d5459a8e7b720d09",
+        ".lake/packages/batteries/lakefile.toml": "d70808a467a05ec5eb14d942cf7a770f38301a4652931cf2a3724a888acd0c92",
+        ".lake/packages/Cli/lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186"
+      }
+    },
+    "snapshot-c8a600cc33a4fb8ee82a": {
+      "repository": "https://github.com/leanprover-community/mathlib4",
+      "lean_version": "v4.27.0",
+      "revision": "a3a10db0e9d66acbebf76c5e6a135066525ac900",
+      "kind": "putnam",
+      "lean_commit": "db93fe1608548721853390a10cd40580fe7d22ae",
+      "required_files": {
+        "lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        "lake-manifest.json": "f7d2372e6756f9cbe4352e286b7708cf9f982ee8423fdb3c3c00509ad0a74d7b",
+        "lakefile.toml": "3a02a973816ac4c0e2be3466f30dcb63bd6d14383bf17de20e5d346fdaa00851",
+        ".lake/packages/mathlib/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/mathlib/lake-manifest.json": "6c24676b690a32627317b1d6dd58cf9318d689c5481e1edc53d07c93c892632f",
+        ".lake/packages/mathlib/lakefile.lean": "f10e41a5182e7c05c2796bd172032937a8b39e2617692d7e58bee40e026b1462",
+        ".lake/packages/plausible/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/plausible/lake-manifest.json": "99a17603b60cd9af445e5689b572b8441aaeaed149f3760dc52595a0c4b128db",
+        ".lake/packages/plausible/lakefile.toml": "7d7ea4683f70f5a5473a887e5a06df1cd3dbc25e4d351e35c2583edd9d5e2e57",
+        ".lake/packages/LeanSearchClient/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+        ".lake/packages/LeanSearchClient/lake-manifest.json": "a9b5fc5e76254f415e49b04b7049f58c6cb42e76a0e31b0aed2ddf4af6882033",
+        ".lake/packages/LeanSearchClient/lakefile.toml": "cb5d6c80c4ffd4b3be99294a911ebf2f6a2fee4eb9f840d96f0f813bd484c05d",
+        ".lake/packages/importGraph/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/importGraph/lake-manifest.json": "f28019065478fc831ea2de1f41fbfdaf782dfc037e76818b6870a304c953a1f3",
+        ".lake/packages/importGraph/lakefile.toml": "f7a224f2a764994391af4debe50c9087ec3e3e1b2c6c55c01437f099c9cfd6b2",
+        ".lake/packages/proofwidgets/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/proofwidgets/lake-manifest.json": "cfa8a1535cd79fbd868bcc67eb22efdab57568248a437fa5dda567234f1f03e2",
+        ".lake/packages/proofwidgets/lakefile.lean": "001fa1dd08298e91883e99c5bd4742d4c7450aaf7c890eb0d21a3f2070bcb4ec",
+        ".lake/packages/aesop/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/aesop/lake-manifest.json": "18980456833d985c43f9eda5f3b676a0dc8f936a042115fd784914385cd588ef",
+        ".lake/packages/aesop/lakefile.toml": "80ae705db96af372e90d2064e1ea0ae5d02641fb72cd1eca9d6f002c35117954",
+        ".lake/packages/Qq/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/Qq/lake-manifest.json": "460e7ce76c58edfd8ba59428f23e908c5860e8bbca8883ff6c1262980e364d30",
+        ".lake/packages/Qq/lakefile.toml": "42826e4e06221f41fcd863e19d937a0a68be7d54df90abd7800a3c09f4557a15",
+        ".lake/packages/batteries/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/batteries/lake-manifest.json": "22a517fadc44c10f21330be6f4ec69d1f5026882e0d2b157d5459a8e7b720d09",
+        ".lake/packages/batteries/lakefile.toml": "fb3b985a0fd025a75f96372f983e9614af482bf27ac8e869fcc84b64a28a488f",
+        ".lake/packages/Cli/lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+        ".lake/packages/Cli/lake-manifest.json": "f608bac5ccb22b59292584eb7fb4497c327e780a17e7afb8d584ce5d79ad0b70",
+        ".lake/packages/Cli/lakefile.toml": "188aaec6ddb57f411c11b95c3ece85ff26ab9ae8085371fee47e1dc855c4e186"
+      }
+    }
+  },
+  "tasks": {
+    "CallElimCorrect.substOldPostSubset": {
+      "label": "st-subst",
+      "row_sha256": "033f409c906d727dc43a5d86833f17e62454cad278d3a4b9aa4dc800d405c39c",
+      "legacy-v1": {
+        "primary": "snapshot-7b8357088fc4da40a7de",
+        "compatibility": []
+      },
+      "arena-v1": {
+        "primary": "snapshot-7b8357088fc4da40a7de",
+        "compatibility": []
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "4df495840c9a8812eb1513d3f75203d5fd0a60ca76f751960a58d24e48f86ee0",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "dbdbf6e6ea4e52714e1c16cef7626602865b5f0b737c5397d71c0f6fbfc59fc4",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.26.0",
+        "primary_source_revision": "451e5f047bafa010d178856db76c00029bfa4d7f",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-7b8357088fc4da40a7de": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "5aab41f14cc55b5049ae81535506b6998bfadd9d983af6130fa92f4a39bd244c",
+            "lean_toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "dbdbf6e6ea4e52714e1c16cef7626602865b5f0b737c5397d71c0f6fbfc59fc4",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Strata/Transform/CallElimCorrect.lean",
+            "project_source_sha256": "1c5e76014548db4a380b5c225f561c726a0db1184dcddfefb7191052e67dd79a",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": [
+              "-D",
+              "experimental.module=true"
+            ]
+          },
+          "fingerprint": "bd3a0223d5e5795858d6c766507a4f247589cd10a69b6bfb0fe50279bdf7d467",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)"
+        }
+      }
+    },
+    "CallElimCorrect.extractedOldExprInVars": {
+      "label": "st-vars",
+      "row_sha256": "8a1d4fae046708f865f8bc34969a43baa324be743487164feca5f7714f1ecc39",
+      "legacy-v1": {
+        "primary": "snapshot-7b8357088fc4da40a7de",
+        "compatibility": []
+      },
+      "arena-v1": {
+        "primary": "snapshot-7b8357088fc4da40a7de",
+        "compatibility": []
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "fc4b81a8a0eee85048eef7bf8688492470a4bac80eac183623e3aef34dccd0a0",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "2cc5b82de593a0cbc83f9b386cc95245e97d4b18ac4d8a89294c9d0cb0917345",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.26.0",
+        "primary_source_revision": "451e5f047bafa010d178856db76c00029bfa4d7f",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-7b8357088fc4da40a7de": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "5aab41f14cc55b5049ae81535506b6998bfadd9d983af6130fa92f4a39bd244c",
+            "lean_toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "2cc5b82de593a0cbc83f9b386cc95245e97d4b18ac4d8a89294c9d0cb0917345",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Strata/Transform/CallElimCorrect.lean",
+            "project_source_sha256": "1c5e76014548db4a380b5c225f561c726a0db1184dcddfefb7191052e67dd79a",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": [
+              "-D",
+              "experimental.module=true"
+            ]
+          },
+          "fingerprint": "decaf9134ea12a312f3a8bf680359bcbb364a766f0e2b9b49a77964269c5f61d",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)"
+        }
+      }
+    },
+    "Core.InitsUpdatesComm": {
+      "label": "st",
+      "row_sha256": "cae2c88a0230c27cfe4a7da98f6e67137411f17bcc5d10ae31f9a4a9026d1099",
+      "legacy-v1": {
+        "primary": "snapshot-ab86d5ef041b147c7b9c",
+        "compatibility": [
+          "snapshot-ac0b4cb61b101244405b",
+          "snapshot-7b8357088fc4da40a7de"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-ab86d5ef041b147c7b9c",
+        "compatibility": [
+          "snapshot-ac0b4cb61b101244405b",
+          "snapshot-7b8357088fc4da40a7de"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "4631efc535618b21a77896f7d36fcd02632db2a5c5f15f96597cd936bcb3abd7",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "0bd9a59f8ee210f7aa33326b61e40934872abaced72cb270dd62288ee1cb1973",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.29.1",
+        "primary_source_revision": "384e22374e0872095ad9c6f74c5998c09cfd93a9",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-ab86d5ef041b147c7b9c": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "7514712b0b38e2542107275bc394ed29a077ae96b15bc0def791e60ab5953ed2",
+            "lean_toolchain_sha256": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "0bd9a59f8ee210f7aa33326b61e40934872abaced72cb270dd62288ee1cb1973",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Strata/Languages/Core/StatementSemanticsProps.lean",
+            "project_source_sha256": "9442c6376cbcbeac7826054ed64de09fc85984d15424ad73faa45415d1c58ada",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "3dfb75e63f7660fb688d7d7f10190b68595c673941a662e227f11aa480a79cb9",
+          "lean_version": "Lean (version 4.29.1, x86_64-unknown-linux-gnu, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)"
+        },
+        "snapshot-ac0b4cb61b101244405b": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "4e046692bc9ffb00a1a64fe7c8d57d820cf08d04fe919c55268ce748b64ea687",
+            "lean_toolchain_sha256": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "0bd9a59f8ee210f7aa33326b61e40934872abaced72cb270dd62288ee1cb1973",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Strata/Languages/Core/StatementSemanticsProps.lean",
+            "project_source_sha256": "6a8c0061e0bd2b4268b867fd183ee28db57ef8637fb3510171d031acb097eaa1",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "56aaf729b8f5900344dc3bdb91e94592d54cb6b2e2660cea03e7e2bd783cf020",
+          "lean_version": "Lean (version 4.27.0, x86_64-unknown-linux-gnu, commit db93fe1608548721853390a10cd40580fe7d22ae, Release)"
+        },
+        "snapshot-7b8357088fc4da40a7de": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "5aab41f14cc55b5049ae81535506b6998bfadd9d983af6130fa92f4a39bd244c",
+            "lean_toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "0bd9a59f8ee210f7aa33326b61e40934872abaced72cb270dd62288ee1cb1973",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Strata/Languages/Core/StatementSemanticsProps.lean",
+            "project_source_sha256": "bb67b50c5a2c9021ba7b2b5c705e2ace30dea100fda687397fa09d7774a69602",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": [
+              "-D",
+              "experimental.module=true"
+            ]
+          },
+          "fingerprint": "240f002f8a0a8e181d42afd3159cab69e86717b91810248f1ab5a4aa755eb46c",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)"
+        }
+      }
+    },
+    "fundamental_theorem_of_variational_calculus'": {
+      "label": "ph-ftvc",
+      "row_sha256": "85bd83f56016f0ee81800c4840d54e529b1c10b35252e2d4a25df2d90d9b60fe",
+      "legacy-v1": {
+        "primary": "snapshot-a8ae8c30534809f4c8e2",
+        "compatibility": []
+      },
+      "arena-v1": {
+        "primary": "snapshot-a8ae8c30534809f4c8e2",
+        "compatibility": []
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "cbaef054e43e4bf09fc20dcc43722ceb31d1e2ae4aea45e77530625157ab1811",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "ae3a05ebcb1ec68d71b29734366ba8e73e3d3068bcc3a53e5b71ec3990bc84dd",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.32.0",
+        "primary_source_revision": "c48433678e8fb6306ebcd48453300c8e16058a62",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-a8ae8c30534809f4c8e2": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "6ad3d2c817faf74f7b8ca67483dc46e498b4a4e24482600914fa9839e7eb1e27",
+            "lean_toolchain_sha256": "cc346fd7850a83fb7af3902dfc378f74d8eb8c59c6d34322488269ebfe7615b1",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "ae3a05ebcb1ec68d71b29734366ba8e73e3d3068bcc3a53e5b71ec3990bc84dd",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Physlib/Mathematics/VariationalCalculus/Basic.lean",
+            "project_source_sha256": "ac7683ecbd03b7749d929b13eeb09b8021cef7b5b2125dc20d74007edb677a65",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "ce89ab6e024f33bfbab565242c9a4b66c5adc034a0af0eb7f9ead24aabe79032",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)\nwarning: manifest out of date: source kind (git/path) of dependency 'mathlib' changed; use `lake update mathlib` to update it"
+        }
+      }
+    },
+    "Electromagnetism.ElectromagneticPotential.time_deriv_time_deriv_electricField_of_isExtrema": {
+      "label": "ph-em",
+      "row_sha256": "e2e1829990c485902c3d1d244acc76804a667a911b3db4fc6fce56e1c16f2027",
+      "legacy-v1": {
+        "primary": "snapshot-a8ae8c30534809f4c8e2",
+        "compatibility": []
+      },
+      "arena-v1": {
+        "primary": "snapshot-a8ae8c30534809f4c8e2",
+        "compatibility": []
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "a434bdf907004e12e13037ce1e661bb48f29f7395dcfdf11ba6f2cd57845a814",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "9839fbd7f2dedf9c22190403722dc98210c990a14188a042ddf41ab5e050496c",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.32.0",
+        "primary_source_revision": "c48433678e8fb6306ebcd48453300c8e16058a62",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-a8ae8c30534809f4c8e2": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "6ad3d2c817faf74f7b8ca67483dc46e498b4a4e24482600914fa9839e7eb1e27",
+            "lean_toolchain_sha256": "cc346fd7850a83fb7af3902dfc378f74d8eb8c59c6d34322488269ebfe7615b1",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "9839fbd7f2dedf9c22190403722dc98210c990a14188a042ddf41ab5e050496c",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Physlib/Electromagnetism/Dynamics/IsExtrema.lean",
+            "project_source_sha256": "2ff8a0f8cb3586b411660c3f1dd8c405a43dc23259a92cbc123da19326b1da74",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "41b7acadf5b37d3559556f4a17a3bbe2a78fbfd28eaedc5cc8fba6cb7ad78166",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)\nwarning: manifest out of date: source kind (git/path) of dependency 'mathlib' changed; use `lake update mathlib` to update it"
+        }
+      }
+    },
+    "FieldSpecification.WickAlgebra.ι_timeOrderF_superCommuteF_eq_time": {
+      "label": "ph",
+      "row_sha256": "ecdca2b3eadb7a25f62064dc59c6087f40c7f861bd623207e6c41501af092cd9",
+      "legacy-v1": {
+        "primary": "snapshot-a8ae8c30534809f4c8e2",
+        "compatibility": []
+      },
+      "arena-v1": {
+        "primary": "snapshot-a8ae8c30534809f4c8e2",
+        "compatibility": []
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "a2bebae6528b7fd2202fbdbcaf89231135ff1cd7d81927e59e306b6857511a38",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "b0b0bdda4094c15be7cfd13caee9f73b03ddf22c9de85a90567a1291cc6f0306",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.32.0",
+        "primary_source_revision": "c48433678e8fb6306ebcd48453300c8e16058a62",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-a8ae8c30534809f4c8e2": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "6ad3d2c817faf74f7b8ca67483dc46e498b4a4e24482600914fa9839e7eb1e27",
+            "lean_toolchain_sha256": "cc346fd7850a83fb7af3902dfc378f74d8eb8c59c6d34322488269ebfe7615b1",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "b0b0bdda4094c15be7cfd13caee9f73b03ddf22c9de85a90567a1291cc6f0306",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Physlib/QFT/PerturbationTheory/WickAlgebra/TimeOrder.lean",
+            "project_source_sha256": "c04b61295b56d5a152dc60da9ae87b8c5dbd49d059126097e8c495fe5b5aa40e",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "45ae279bc843be719770f9f57a76bba77d54d5eafa97ecbe862a5fa9c9767c18",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)\nwarning: manifest out of date: source kind (git/path) of dependency 'mathlib' changed; use `lake update mathlib` to update it"
+        }
+      }
+    },
+    "Cslib.LambdaCalculus.LocallyNameless.Fsub.Typing.progress": {
+      "label": "cs-fsub",
+      "row_sha256": "68da21cd6c64c4b4242cc63c0518c154e503d0796f14760e646f985f178d06dd",
+      "legacy-v1": {
+        "primary": "snapshot-323e1e942d8611a8c287",
+        "compatibility": [
+          "snapshot-9b1ac7b6147945b097df",
+          "snapshot-1c85ed04b32edaad5ca7"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-323e1e942d8611a8c287",
+        "compatibility": [
+          "snapshot-9b1ac7b6147945b097df",
+          "snapshot-1c85ed04b32edaad5ca7"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "f4fd61e71d617726ccded41a544509f3482b3dd7e6be3604085ee64df7a77c0e",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "e8b89255b06b284c8a4f4ba9a140c458d8c4640f63014c9c0037585855039be7",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.33.0-rc2",
+        "primary_source_revision": "3aa9d4416c185e0b9faeb72bbd65abe85b95dbcc",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-323e1e942d8611a8c287": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "89a08e53b2d8c1ac5a3db9594b65798f719b38216f0e8bc00417540c5246ad10",
+            "lean_toolchain_sha256": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "e8b89255b06b284c8a4f4ba9a140c458d8c4640f63014c9c0037585855039be7",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/LambdaCalculus/LocallyNameless/Fsub/Safety.lean",
+            "project_source_sha256": "84599a77c2cabc8cf698ee2749dec333ac08ace7ded115f20ff775a1c6c72233",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "f8174e1dcddedb36727f23ff5b5349011f3ef6e24b56881a9090bc21d7141a71",
+          "lean_version": "Lean (version 4.33.0-rc2, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)"
+        },
+        "snapshot-9b1ac7b6147945b097df": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "e346d56ec27dee0e1647b93204903d0d78be6bb535e405926087e3c906234cd2",
+            "lean_toolchain_sha256": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "e8b89255b06b284c8a4f4ba9a140c458d8c4640f63014c9c0037585855039be7",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/LambdaCalculus/LocallyNameless/Fsub/Safety.lean",
+            "project_source_sha256": "84599a77c2cabc8cf698ee2749dec333ac08ace7ded115f20ff775a1c6c72233",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "1f881078aa2ad9aea3f880fdbdf76e851461d162722463710249edfb0d7eb953",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)"
+        },
+        "snapshot-1c85ed04b32edaad5ca7": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "b328964c27a1eaa3f92d24f320fbdd3d987666ea102f8e3ebcf4e82c96461d2c",
+            "lean_toolchain_sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "e8b89255b06b284c8a4f4ba9a140c458d8c4640f63014c9c0037585855039be7",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/LambdaCalculus/LocallyNameless/Fsub/Safety.lean",
+            "project_source_sha256": "c328c3471591c7474a61ce59249e2d59dfcdf7940f6ec8f9f677bd8f55b518b0",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "922205d285c7107262c5a19d59ad2f6bfd06c7162c2e3eaa86c0985a2492f184",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)"
+        }
+      }
+    },
+    "Cslib.SKI.parallelReduction_diamond": {
+      "label": "cs",
+      "row_sha256": "4643170bc9ac2283f3460572aac30daf8c02f97154331f67b9374bfe87afa933",
+      "legacy-v1": {
+        "primary": "snapshot-323e1e942d8611a8c287",
+        "compatibility": [
+          "snapshot-9b1ac7b6147945b097df",
+          "snapshot-1c85ed04b32edaad5ca7",
+          "snapshot-100e913a3759b84bb98e"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-323e1e942d8611a8c287",
+        "compatibility": [
+          "snapshot-9b1ac7b6147945b097df",
+          "snapshot-1c85ed04b32edaad5ca7",
+          "snapshot-100e913a3759b84bb98e"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "64388f9fe074dc884076235c2cd56e3e70910058f59f8f7f59b1ab3f210257ac",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "35f528e8e77dceff098e735cfb0ee98ea989fecca8258a7d59632f211cc5ffdc",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.33.0-rc2",
+        "primary_source_revision": "3aa9d4416c185e0b9faeb72bbd65abe85b95dbcc",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-323e1e942d8611a8c287": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "89a08e53b2d8c1ac5a3db9594b65798f719b38216f0e8bc00417540c5246ad10",
+            "lean_toolchain_sha256": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "35f528e8e77dceff098e735cfb0ee98ea989fecca8258a7d59632f211cc5ffdc",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CombinatoryLogic/Confluence.lean",
+            "project_source_sha256": "6042b6d5bf9bb9a1668b48a46f56f87713cf0c963a35da1b5b6b1f94943fb1ba",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "bc9861b5408e9fd50c9274bc26eac728e247c655cc2b58fbcde6b877c09b713e",
+          "lean_version": "Lean (version 4.33.0-rc2, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)"
+        },
+        "snapshot-9b1ac7b6147945b097df": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "e346d56ec27dee0e1647b93204903d0d78be6bb535e405926087e3c906234cd2",
+            "lean_toolchain_sha256": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "35f528e8e77dceff098e735cfb0ee98ea989fecca8258a7d59632f211cc5ffdc",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CombinatoryLogic/Confluence.lean",
+            "project_source_sha256": "92462bbd4a4b0c671bdcefc57df3b910fc8f9a640fec668a024d9f1b6e0a0de9",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "e29b8ac6a1b352e30b154b229f324e76cda06237130505686e25fb6f6e7a350e",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)"
+        },
+        "snapshot-1c85ed04b32edaad5ca7": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "b328964c27a1eaa3f92d24f320fbdd3d987666ea102f8e3ebcf4e82c96461d2c",
+            "lean_toolchain_sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "35f528e8e77dceff098e735cfb0ee98ea989fecca8258a7d59632f211cc5ffdc",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CombinatoryLogic/Confluence.lean",
+            "project_source_sha256": "b9e0b9f7b499f0aeec14008c08d373aa8766aca665debb3e2b1cb20481f91d19",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "c9e8242d5ec8bb917b51528b67ef69207edf4d19d52deb8bbea0400b7858f39a",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)"
+        },
+        "snapshot-100e913a3759b84bb98e": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "6654a267804e24dd5aa5c92c41ddbd7bde8610db0024398b379f20de1b9693ad",
+            "lean_toolchain_sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "35f528e8e77dceff098e735cfb0ee98ea989fecca8258a7d59632f211cc5ffdc",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CombinatoryLogic/Confluence.lean",
+            "project_source_sha256": "26128c54b0612a8b384cff4a9acf027e1e9f6976ab3cf94cdba2af170678b97f",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "16141bbc3c51ac27fac9876f43720d7fcadf806ec07f0654b9076dfd4829f19e",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)"
+        }
+      }
+    },
+    "Cslib.CCS.bisimilarity_congr_choice": {
+      "label": "cs-ccs",
+      "row_sha256": "743a84c5edbdfc4324c7a3d368b69fdf7048ca4381a78ecbb9635d9f6ffc9a72",
+      "legacy-v1": {
+        "primary": "snapshot-323e1e942d8611a8c287",
+        "compatibility": [
+          "snapshot-9b1ac7b6147945b097df",
+          "snapshot-1c85ed04b32edaad5ca7"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-323e1e942d8611a8c287",
+        "compatibility": [
+          "snapshot-9b1ac7b6147945b097df",
+          "snapshot-1c85ed04b32edaad5ca7"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "fa45a9db986de35bb6675701511739f5f26cc4f8280b35187d92383e64995368",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "90ec3fb53d6c4e9485868b3d1f1bceac5de6abc8b429d456281744fd1b0fa828",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.33.0-rc2",
+        "primary_source_revision": "3aa9d4416c185e0b9faeb72bbd65abe85b95dbcc",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-323e1e942d8611a8c287": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "89a08e53b2d8c1ac5a3db9594b65798f719b38216f0e8bc00417540c5246ad10",
+            "lean_toolchain_sha256": "0d3c76ccd8772d8bcbe207241421a760312b71a6aa82f84194391fdf5cb026d6",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "90ec3fb53d6c4e9485868b3d1f1bceac5de6abc8b429d456281744fd1b0fa828",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CCS/BehaviouralTheory.lean",
+            "project_source_sha256": "ab051b1bb5547a874efe3491ed0c9acc785de2234344046c0d95d4dee178f73e",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "3bd8fc5c9309ab264f5b9247f070fa8792f5ae46ad1e757e45e91acf0ede0ce1",
+          "lean_version": "Lean (version 4.33.0-rc2, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)"
+        },
+        "snapshot-9b1ac7b6147945b097df": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "e346d56ec27dee0e1647b93204903d0d78be6bb535e405926087e3c906234cd2",
+            "lean_toolchain_sha256": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "90ec3fb53d6c4e9485868b3d1f1bceac5de6abc8b429d456281744fd1b0fa828",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CCS/BehaviouralTheory.lean",
+            "project_source_sha256": "d08a2996a8afa14dca972376a50530677214b54d870aa95d98ae23ac69b4fb61",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "65fc16eb301855ae31663d6a2fbd3f2e016f8defb5a104e11f87fcfbbf7a4330",
+          "lean_version": "Lean (version 4.32.0, x86_64-unknown-linux-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)"
+        },
+        "snapshot-1c85ed04b32edaad5ca7": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "b328964c27a1eaa3f92d24f320fbdd3d987666ea102f8e3ebcf4e82c96461d2c",
+            "lean_toolchain_sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "90ec3fb53d6c4e9485868b3d1f1bceac5de6abc8b429d456281744fd1b0fa828",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "Cslib/Languages/CCS/BehaviouralTheory.lean",
+            "project_source_sha256": "d08a2996a8afa14dca972376a50530677214b54d870aa95d98ae23ac69b4fb61",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "378c1b92dc8be53a46c8143a6e9d723c5b0de522a70e9d3acd11c0df7bec415d",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)"
+        }
+      }
+    },
+    "Binius.BinaryBasefold.fiberwise_dist_lt_imp_dist_lt_unique_decoding_radius": {
+      "label": "ar",
+      "row_sha256": "4f1d3b976b940bd4c80cf57895124ca8369815cdd922ac57ebcabdcbdab76003",
+      "legacy-v1": {
+        "primary": "snapshot-ec689b01a8e8062353f6",
+        "compatibility": [
+          "snapshot-a92e34e6197dbc863607",
+          "snapshot-dfc38a98c58210d11850",
+          "snapshot-6050fa19f79e3d9aa13c"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-ec689b01a8e8062353f6",
+        "compatibility": [
+          "snapshot-a92e34e6197dbc863607",
+          "snapshot-dfc38a98c58210d11850",
+          "snapshot-6050fa19f79e3d9aa13c"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "c43ef25ef43edf3dd7de0893f160a1c631964d9560dedc2f4e23a5b3903d840d",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "561da2e1599d85a33fddbdbdb9eca3f05f504c3dfaa7e32d367eef4eba532033",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.31.0",
+        "primary_source_revision": "c1712f6c496d0aef04f09bae42aec13811b3273f",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-ec689b01a8e8062353f6": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "4c3b72432423719bd83c5edbbc2d7750bb7cc2708b43743d5026ee49a141dc39",
+            "lean_toolchain_sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "561da2e1599d85a33fddbdbdb9eca3f05f504c3dfaa7e32d367eef4eba532033",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "7b6cd84808024e67fa8aadde67e7953e67ed5f5e4ecd69ac0c061143f69cffac",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "a28c08c7dc3e9304939885e88789177c1465fdcee76779e965659eb8b5fd00b1",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)"
+        },
+        "snapshot-a92e34e6197dbc863607": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "836e09e2550903e184890e985f87f9be5ec0b01e174408fe6ac134a2bf10d96a",
+            "lean_toolchain_sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "561da2e1599d85a33fddbdbdb9eca3f05f504c3dfaa7e32d367eef4eba532033",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "bee74a914714a136db0f48690db7f0bd317a82311e3f320414b74e3894f5a6a2",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "de4c61238f0fb394fbef5c38807774cb37e4bbce2bb2edc8dcc7bc4e795208ae",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)\nwarning: manifest out of date: git revision of dependency 'VCVio' changed; use `lake update VCVio` to update it"
+        },
+        "snapshot-dfc38a98c58210d11850": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "86290b7bac9709597c5f29e432429b611e35c5c28afb53ee97eebe70b87d591d",
+            "lean_toolchain_sha256": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "561da2e1599d85a33fddbdbdb9eca3f05f504c3dfaa7e32d367eef4eba532033",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "bee74a914714a136db0f48690db7f0bd317a82311e3f320414b74e3894f5a6a2",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "4214bfe852da4df7c46e37779cdc33b0de55834421d36e8b7e7491f3e0f760d1",
+          "lean_version": "Lean (version 4.29.0, x86_64-unknown-linux-gnu, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740, Release)"
+        },
+        "snapshot-6050fa19f79e3d9aa13c": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "059fe674160b08a95ad82db36c544dd2ede977641e9a1560d3caf2503237630f",
+            "lean_toolchain_sha256": "26df5f74b79af0cd9e298b6583993699a54938d047ba1919428da80d3ae80c6e",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "561da2e1599d85a33fddbdbdb9eca3f05f504c3dfaa7e32d367eef4eba532033",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "d499d34aa6260d607a3c2b6aecdb0dec7ac8c3592829e8c3d263a7ee7131e851",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "181b138fff9dd28bfcd73ed4a545b3bae3be9f5f2514cc6224436e5e7173b317",
+          "lean_version": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+        }
+      }
+    },
+    "Binius.BinaryBasefold.fold_advances_evaluation_poly": {
+      "label": "ar-fold",
+      "row_sha256": "d09cb18b7d4fc400780844a31d0a75e5969e920ec002044937bf3f937a0f7490",
+      "legacy-v1": {
+        "primary": "snapshot-ec689b01a8e8062353f6",
+        "compatibility": [
+          "snapshot-a92e34e6197dbc863607",
+          "snapshot-dfc38a98c58210d11850"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-ec689b01a8e8062353f6",
+        "compatibility": [
+          "snapshot-a92e34e6197dbc863607",
+          "snapshot-dfc38a98c58210d11850"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "8246b8e8292f89cd1fe0e34ac0f5a658ec4ca82480a604c753bfed68dfcb8eb4",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "67401740132ca27612c5a143c6dd3a90205f5d84a7c0850182c9391592a0752f",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.31.0",
+        "primary_source_revision": "c1712f6c496d0aef04f09bae42aec13811b3273f",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-ec689b01a8e8062353f6": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "4c3b72432423719bd83c5edbbc2d7750bb7cc2708b43743d5026ee49a141dc39",
+            "lean_toolchain_sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "67401740132ca27612c5a143c6dd3a90205f5d84a7c0850182c9391592a0752f",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "7b6cd84808024e67fa8aadde67e7953e67ed5f5e4ecd69ac0c061143f69cffac",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "899311401ec2960c4f0ff3b7b16840c9e0ee2e78f1d3d908575005efad0a45d6",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)"
+        },
+        "snapshot-a92e34e6197dbc863607": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "836e09e2550903e184890e985f87f9be5ec0b01e174408fe6ac134a2bf10d96a",
+            "lean_toolchain_sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "67401740132ca27612c5a143c6dd3a90205f5d84a7c0850182c9391592a0752f",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "bee74a914714a136db0f48690db7f0bd317a82311e3f320414b74e3894f5a6a2",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "087f96b997bf65d00ac52aeff314ee83a80496aa44cb58b78f6ff79ede40b406",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)\nwarning: manifest out of date: git revision of dependency 'VCVio' changed; use `lake update VCVio` to update it"
+        },
+        "snapshot-dfc38a98c58210d11850": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "86290b7bac9709597c5f29e432429b611e35c5c28afb53ee97eebe70b87d591d",
+            "lean_toolchain_sha256": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "67401740132ca27612c5a143c6dd3a90205f5d84a7c0850182c9391592a0752f",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/ProofSystem/Binius/BinaryBasefold/Prelude.lean",
+            "project_source_sha256": "bee74a914714a136db0f48690db7f0bd317a82311e3f320414b74e3894f5a6a2",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "f6bbda3b762d3ce1f373d33e2166eafb27ebca339d2f097564989586dad5a0a1",
+          "lean_version": "Lean (version 4.29.0, x86_64-unknown-linux-gnu, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740, Release)"
+        }
+      }
+    },
+    "interleaved_affine_gaps_imply_tensor_gaps": {
+      "label": "ar-gaps",
+      "row_sha256": "093774d065e68e2563a86e64a3c03445b9fae58156030fc658b082246ac8b7cb",
+      "legacy-v1": {
+        "primary": "snapshot-ec689b01a8e8062353f6",
+        "compatibility": [
+          "snapshot-a92e34e6197dbc863607",
+          "snapshot-dfc38a98c58210d11850"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-ec689b01a8e8062353f6",
+        "compatibility": [
+          "snapshot-a92e34e6197dbc863607",
+          "snapshot-dfc38a98c58210d11850"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "9108a4124cfc2bf538fab00db4cc9628fca9eaf180a87a160acf8aabe5117799",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "5e8c33db1f147ea33ed9adae552f5f17c7559384f868799a83392817c2e56979",
+        "header_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "primary_lean_version": "v4.31.0",
+        "primary_source_revision": "c1712f6c496d0aef04f09bae42aec13811b3273f",
+        "primary_selection_evidence": "retained_current_primary"
+      },
+      "environments": {
+        "snapshot-ec689b01a8e8062353f6": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "4c3b72432423719bd83c5edbbc2d7750bb7cc2708b43743d5026ee49a141dc39",
+            "lean_toolchain_sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "5e8c33db1f147ea33ed9adae552f5f17c7559384f868799a83392817c2e56979",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/Data/CodingTheory/ProximityGap/DG25/MainResults.lean",
+            "project_source_sha256": "5ed5afbd2f8a11f27701c8135eebac4db9dd9f30184ec759d78f6e43a5702531",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "4bbdebd26c1aca8f89bddd820be8f136aca9ad9b841fa7752fd7dd283c967808",
+          "lean_version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)"
+        },
+        "snapshot-a92e34e6197dbc863607": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "836e09e2550903e184890e985f87f9be5ec0b01e174408fe6ac134a2bf10d96a",
+            "lean_toolchain_sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "5e8c33db1f147ea33ed9adae552f5f17c7559384f868799a83392817c2e56979",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/Data/CodingTheory/ProximityGap/DG25/MainResults.lean",
+            "project_source_sha256": "93e568c1148ebdef2bcc7ce4db8edfa28af2d36938170729ee5d6a8866bddccf",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "0da136f76536fbd6fff3a1b420f328514c39e76159d9fff9cbeee48630180c37",
+          "lean_version": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)\nwarning: manifest out of date: git revision of dependency 'VCVio' changed; use `lake update VCVio` to update it"
+        },
+        "snapshot-dfc38a98c58210d11850": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "project-command-heartbeat-v1",
+            "lake_manifest_sha256": "86290b7bac9709597c5f29e432429b611e35c5c28afb53ee97eebe70b87d591d",
+            "lean_toolchain_sha256": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2",
+            "environment_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "original_declaration_sha256": "5e8c33db1f147ea33ed9adae552f5f17c7559384f868799a83392817c2e56979",
+            "max_heartbeats": 1000000000,
+            "elab_async": false,
+            "project_source_path": "ArkLib/Data/CodingTheory/ProximityGap/DG25/MainResults.lean",
+            "project_source_sha256": "93e568c1148ebdef2bcc7ce4db8edfa28af2d36938170729ee5d6a8866bddccf",
+            "measurement_helper_sha256": "c55a659c5144848821e52db2153a15c668218919cda1e704d8cd193ffd06e21c",
+            "measurement_helper_lean_args": []
+          },
+          "fingerprint": "1340a0452f4bf97c18ed0c94661120cc828ed9872bf3819d5a71b8850c2b812c",
+          "lean_version": "Lean (version 4.29.0, x86_64-unknown-linux-gnu, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740, Release)"
+        }
+      }
+    },
+    "putnam_1964_a4": {
+      "label": "pu",
+      "row_sha256": "fddf489ef14e5f50bb4f2092b7d422900169d3382eb97de89611a2009f8ae854",
+      "legacy-v1": {
+        "primary": "snapshot-a0da268124351a5ecd7b",
+        "compatibility": [
+          "snapshot-5769ef49fff3a9aa4aa9",
+          "snapshot-c8a600cc33a4fb8ee82a"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-c8a600cc33a4fb8ee82a",
+        "compatibility": [
+          "snapshot-a0da268124351a5ecd7b",
+          "snapshot-5769ef49fff3a9aa4aa9"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "2f4b0838727738c3fd0afcb4c89134c12e46767220e26a2d8ea7467e310a103c",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "27b46ee810644ab2f6c3950cda14346274705204b619350947ad97d90e62b669",
+        "header_sha256": "31394d623bed2ab9568c0e7e4a55ec43465687891311a5b0a17832b4f455c594",
+        "primary_lean_version": "v4.27.0",
+        "primary_source_revision": "a3a10db0e9d66acbebf76c5e6a135066525ac900",
+        "primary_selection_evidence": "empirical_match_on_exact_submitted_candidate_replay"
+      },
+      "environments": {
+        "snapshot-c8a600cc33a4fb8ee82a": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "f7d2372e6756f9cbe4352e286b7708cf9f982ee8423fdb3c3c00509ad0a74d7b",
+            "lean_toolchain_sha256": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+            "environment_sha256": "31394d623bed2ab9568c0e7e4a55ec43465687891311a5b0a17832b4f455c594",
+            "original_declaration_sha256": "27b46ee810644ab2f6c3950cda14346274705204b619350947ad97d90e62b669",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "9cf27377a4c88a79532377812d34f939782f786489408003af38b4761141af56",
+          "lean_version": "Lean (version 4.27.0, x86_64-unknown-linux-gnu, commit db93fe1608548721853390a10cd40580fe7d22ae, Release)"
+        },
+        "snapshot-a0da268124351a5ecd7b": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "3dd6c82ed40ebf655924233100ad6f425e59ab810d054a28f474cf2a22c3642d",
+            "lean_toolchain_sha256": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+            "environment_sha256": "31394d623bed2ab9568c0e7e4a55ec43465687891311a5b0a17832b4f455c594",
+            "original_declaration_sha256": "27b46ee810644ab2f6c3950cda14346274705204b619350947ad97d90e62b669",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "ff5b2034aba88b41d1f17735f3d02b08bc6a2039be3da7ab73c61ba6d7f26e05",
+          "lean_version": "Lean (version 4.25.0, x86_64-unknown-linux-gnu, commit cdd38ac5115bdeec5f609e9126cce00f51ae88b3, Release)"
+        },
+        "snapshot-5769ef49fff3a9aa4aa9": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "c4d72e59d804363620575b432925f6698e87aa0b7496b6598f9765c4147c38e8",
+            "lean_toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+            "environment_sha256": "31394d623bed2ab9568c0e7e4a55ec43465687891311a5b0a17832b4f455c594",
+            "original_declaration_sha256": "27b46ee810644ab2f6c3950cda14346274705204b619350947ad97d90e62b669",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "7d37657b6ce1318b67f2f1ab03b4f053a587fedde27cc2ffe19e46df70af6000",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)"
+        }
+      }
+    },
+    "putnam_1964_b2": {
+      "label": "pu-b2",
+      "row_sha256": "4b0810e3b1f55597c60e14489e1a88f6771e805d78b2d79120a93ea6e718e679",
+      "legacy-v1": {
+        "primary": "snapshot-a0da268124351a5ecd7b",
+        "compatibility": [
+          "snapshot-5769ef49fff3a9aa4aa9"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-5769ef49fff3a9aa4aa9",
+        "compatibility": [
+          "snapshot-a0da268124351a5ecd7b"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "e345fdaa82d2439e92ae9f7f67d77f660fdfbd422eb59f34b714589802cf709e",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "16f0c2b3e008d0002b83f9550e553fb9acd22cbb4daf5ec813ecd68282738892",
+        "header_sha256": "cbb5bb8c8e79a6a6290ed854a8aac1556c951005fe053f152bb1667922100cba",
+        "primary_lean_version": "v4.26.0",
+        "primary_source_revision": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+        "primary_selection_evidence": "empirical_match_on_exact_submitted_candidate_replay"
+      },
+      "environments": {
+        "snapshot-5769ef49fff3a9aa4aa9": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "c4d72e59d804363620575b432925f6698e87aa0b7496b6598f9765c4147c38e8",
+            "lean_toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+            "environment_sha256": "cbb5bb8c8e79a6a6290ed854a8aac1556c951005fe053f152bb1667922100cba",
+            "original_declaration_sha256": "16f0c2b3e008d0002b83f9550e553fb9acd22cbb4daf5ec813ecd68282738892",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "88d9d72987e5a8117cf023dca0ecdf9fe154874d17928eff75854ea98ee2d0ea",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)"
+        },
+        "snapshot-a0da268124351a5ecd7b": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "3dd6c82ed40ebf655924233100ad6f425e59ab810d054a28f474cf2a22c3642d",
+            "lean_toolchain_sha256": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+            "environment_sha256": "cbb5bb8c8e79a6a6290ed854a8aac1556c951005fe053f152bb1667922100cba",
+            "original_declaration_sha256": "16f0c2b3e008d0002b83f9550e553fb9acd22cbb4daf5ec813ecd68282738892",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "b790a14ce490160b976da13108b44f24c8c78d364d620886c0d2898059533244",
+          "lean_version": "Lean (version 4.25.0, x86_64-unknown-linux-gnu, commit cdd38ac5115bdeec5f609e9126cce00f51ae88b3, Release)"
+        }
+      }
+    },
+    "putnam_1995_a3": {
+      "label": "pu-95a3",
+      "row_sha256": "ca590470cea432295d87e2ee6b4cceb4f7067ea71edadd34d9d913d057be19c6",
+      "legacy-v1": {
+        "primary": "snapshot-a0da268124351a5ecd7b",
+        "compatibility": [
+          "snapshot-5769ef49fff3a9aa4aa9",
+          "snapshot-c8a600cc33a4fb8ee82a"
+        ]
+      },
+      "arena-v1": {
+        "primary": "snapshot-c8a600cc33a4fb8ee82a",
+        "compatibility": [
+          "snapshot-a0da268124351a5ecd7b",
+          "snapshot-5769ef49fff3a9aa4aa9"
+        ]
+      },
+      "arena_reference": {
+        "revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+        "row_sha256": "10190a2345715dd64bf61658415dafefcada96892a76207f51b2d85cf1cb239d",
+        "benchmark_snapshot_sha256": "6209680cf00cde0765b77b24834cd72c64dd585b2f7e3f2a58209980ab59a804",
+        "heartbeat_snapshot_sha256": "f342873a128281f858b9514ca4f3079dac8703515ff8a5510d5edffeecc0b6cb",
+        "src_sha256": "56dcc03e9f1d22a0655aeb46aa929c75efddb21f2fa73d7504b648792b6e8329",
+        "header_sha256": "2eb2cdedfb7d738225c74530f75ba648434949e0b04a1a3e1137ba2d8ad5344f",
+        "primary_lean_version": "v4.27.0",
+        "primary_source_revision": "a3a10db0e9d66acbebf76c5e6a135066525ac900",
+        "primary_selection_evidence": "empirical_match_on_exact_submitted_candidate_replay"
+      },
+      "environments": {
+        "snapshot-c8a600cc33a4fb8ee82a": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "f7d2372e6756f9cbe4352e286b7708cf9f982ee8423fdb3c3c00509ad0a74d7b",
+            "lean_toolchain_sha256": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+            "environment_sha256": "2eb2cdedfb7d738225c74530f75ba648434949e0b04a1a3e1137ba2d8ad5344f",
+            "original_declaration_sha256": "56dcc03e9f1d22a0655aeb46aa929c75efddb21f2fa73d7504b648792b6e8329",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "ab287d529188c4f932288f4316b6a4aa585aff55f84ec74c32a82770ab0e41d1",
+          "lean_version": "Lean (version 4.27.0, x86_64-unknown-linux-gnu, commit db93fe1608548721853390a10cd40580fe7d22ae, Release)"
+        },
+        "snapshot-a0da268124351a5ecd7b": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "3dd6c82ed40ebf655924233100ad6f425e59ab810d054a28f474cf2a22c3642d",
+            "lean_toolchain_sha256": "dbbf063fc415c8e718172605f23a8f86679a3c320eff6d3890cc009534452925",
+            "environment_sha256": "2eb2cdedfb7d738225c74530f75ba648434949e0b04a1a3e1137ba2d8ad5344f",
+            "original_declaration_sha256": "56dcc03e9f1d22a0655aeb46aa929c75efddb21f2fa73d7504b648792b6e8329",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "b6be4779abe141b06e4dccf4bde3e4c8644483c8e74f32a77aa1ccf96036f49b",
+          "lean_version": "Lean (version 4.25.0, x86_64-unknown-linux-gnu, commit cdd38ac5115bdeec5f609e9126cce00f51ae88b3, Release)"
+        },
+        "snapshot-5769ef49fff3a9aa4aa9": {
+          "guard": {
+            "schema_version": 1,
+            "instrumentation": "exact-heartbeat-audit-v1",
+            "lake_manifest_sha256": "c4d72e59d804363620575b432925f6698e87aa0b7496b6598f9765c4147c38e8",
+            "lean_toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+            "environment_sha256": "2eb2cdedfb7d738225c74530f75ba648434949e0b04a1a3e1137ba2d8ad5344f",
+            "original_declaration_sha256": "56dcc03e9f1d22a0655aeb46aa929c75efddb21f2fa73d7504b648792b6e8329",
+            "max_heartbeats": 1000000000,
+            "elab_async": false
+          },
+          "fingerprint": "5bd2759859b2c46e0671d844f6a1a5e8b1347ae95840790b53231b18be4bee66",
+          "lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)"
+        }
+      }
+    }
+  },
+  "policy": "Explicit prebuilt snapshots only. Validate source identities and compiled dependency closure; never install, discover, fetch or rebuild during run."
+}

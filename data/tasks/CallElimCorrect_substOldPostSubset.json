@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-08-28T01:33:24.095723+00:00",
+  "source": {
+    "arena_revision": "e034972db374b906d0fa9339b9d183bf215b8fae",
+    "url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_data_warmup.jsonl",
+    "row_sha256": "4df495840c9a8812eb1513d3f75203d5fd0a60ca76f751960a58d24e48f86ee0",
+    "heartbeat_url": "https://huggingface.co/spaces/delta-lab-ai/lean-refactor-arena/resolve/e034972db374b906d0fa9339b9d183bf215b8fae/benchmark_heartbeats.jsonl"
+  },
+  "reference": {
+    "heartbeat": 5175
+  },
+  "row": {
+    "name": "CallElimCorrect.substOldPostSubset",
+    "source": "strata",
+    "statement": "open OldExpressions in\ntheorem substOldPostSubset:\n  (Imperative.HasVarsPure.getVars (P:=Expression)\n    (substOld h2 (Lambda.LExpr.fvar m h1 ty) post)).Subset\n    (Imperative.HasVarsPure.getVars (P:=Expression) post ++ [h1])",
+    "src": "open OldExpressions in\ntheorem substOldPostSubset:\n  (Imperative.HasVarsPure.getVars (P:=Expression)\n    (substOld h2 (Lambda.LExpr.fvar m h1 ty) post)).Subset\n    (Imperative.HasVarsPure.getVars (P:=Expression) post ++ [h1]) := by\n  induction post <;> simp [substOld]\n  case fvar =>\n    intros x Hin\n    rename_i m name ty2\n    simp at m\n    simp at name\n    simp at ty2\n\n    simp_all\n  case op =>\n    intros x Hin\n    rename_i m name ty2\n    simp at m\n    simp at name\n    simp at ty2\n    simp_all\n  case const =>\n    intros x Hin\n    rename_i m name\n    simp at m\n    simp_all\n  case bvar =>\n    intros x Hin\n    rename_i m d\n    simp at m\n    simp_all\n  case abs ih =>\n    exact ih\n  case ite cih tih eih =>\n    simp [Imperative.HasVarsPure.getVars, Lambda.LExpr.LExpr.getVars] at *\n    apply List.Subset.app\n    . apply List.Subset.trans\n      apply cih <;> assumption\n      intros x Hin\n      simp_all\n      cases Hin <;> simp_all\n    apply List.Subset.app\n    . apply List.Subset.trans\n      apply tih <;> assumption\n      intros x Hin\n      simp_all\n      cases Hin <;> simp_all\n    . apply List.Subset.trans\n      apply eih <;> assumption\n      intros x Hin\n      simp_all\n  case app ih1 ih2 =>\n    split\n    . split\n      . simp [Imperative.HasVarsPure.getVars, Lambda.LExpr.LExpr.getVars] at *\n        intros x Hin\n        simp_all\n      . simp [Imperative.HasVarsPure.getVars, Lambda.LExpr.LExpr.getVars] at *\n        intros x Hin\n        simp_all\n    . simp [Imperative.HasVarsPure.getVars, Lambda.LExpr.LExpr.getVars] at *\n      apply List.Subset.app\n      . apply List.Subset.trans\n        apply ih1 <;> assumption\n        intros x Hin\n        simp_all\n        cases Hin <;> simp_all\n      . apply List.Subset.trans\n        apply ih2 <;> assumption\n        intros x Hin\n        simp_all\n  case quant trih eih =>\n    simp [Imperative.HasVarsPure.getVars, Lambda.LExpr.LExpr.getVars] at *\n    apply List.Subset.app\n    . apply List.Subset.trans\n      apply trih <;> assumption\n      intros x Hin\n      rename_i m1 k1 ty1 trigger1 e1\n      have assoc := List.append_assoc (Lambda.LExpr.LExpr.getVars trigger1) (Lambda.LExpr.LExpr.getVars e1) [h1]\n      simp_all\n      cases Hin <;> simp_all\n    . apply List.Subset.trans\n      apply eih <;> assumption\n      intros x Hin\n      simp_all\n  case eq ih1 ih2 =>\n    simp [Imperative.HasVarsPure.getVars, Lambda.LExpr.LExpr.getVars] at *\n    apply List.Subset.app\n    . apply List.Subset.trans\n      apply ih1 <;> assumption\n      intros x Hin\n      simp_all\n      cases Hin <;> simp_all\n    . apply List.Subset.trans\n      apply ih2 <;> assumption\n      intros x Hin\n      simp_all",
+    "proof_length": 313,
+    "num_lines": 97,
+    "header": "",
+    "file_path": "Strata/Transform/CallElimCorrect.lean",
+    "url": "https://github.com/strata-org/Strata",
+    "start_line": 2964,
+    "end_line": 3060,
+    "version_info": [
+      {
+        "v4.26.0": "451e5f047bafa010d178856db76c00029bfa4d7f"
+      }
+    ],
+    "signature": "open OldExpressions in\ntheorem substOldPostSubset:\n  (Imperative.HasVarsPure.getVars (P:=Expression)\n    (substOld h2 (Lambda.LExpr.fvar m h1 ty) post)).Subset\n    (Imperative.HasVarsPure.getVars (P:=Expression) post ++ [h1])",
+    "contexts": []
+  },
+  "local_baselines": [
+    {
+      "environment_fingerprint": "4d140fcdd64c8dcbcda6566ac0a075bce076910c79050000bc0309d404235b10",
+      "heartbeat": 5174,
+      "recorded_at": "2026-08-28T04:48:42.763129+00:00",
+      "lean_version": "Lean (version 4.26.0, x86_64-w64-windows-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+      "lake_manifest_sha256": "5aab41f14cc55b5049ae81535506b6998bfadd9d983af6130fa92f4a39bd244c",
+      "instrumentation": "project-command-heartbeat-v1"
+    }
+  ]
+}

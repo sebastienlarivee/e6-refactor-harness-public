@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+runs/
+.local/
+*.local.toml
+*.local.json
+.env
+.bootstrap/
+
+# Private credentials and generated logs
+.env.*
+!.env.example
+*.key
+*.pem
+auth.json
+credentials*.json
+.codex/
+*.log
+*.evidence.json

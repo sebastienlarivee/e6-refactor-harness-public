@@ -1,0 +1,21 @@
+{
+  "model_id": "openai/gpt-6.1-sol",
+  "provider": "openai",
+  "input_price_per_million": "5",
+  "output_price_per_million": "15",
+  "context_length": 1050000,
+  "max_output_tokens": 128000,
+  "budget_usd": "1.5",
+  "catalog_retrieved_at": "2026-10-27T21:58:39.783011+00:00",
+  "catalog_source": "https://openrouter.ai/api/v1/models/openai/gpt-6.1-sol/endpoints",
+  "supports_parallel_tool_calls": false,
+  "supported_reasoning_efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+  ],
+  "default_reasoning_effort": "high",
+  "model_display_name": "OpenAI: GPT-6.1 Sol"
+}

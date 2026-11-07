@@ -1,0 +1,17 @@
+{
+  "source_benchmark_sha256": "d53690b057f9972f44643678ee6b5eee7a66f56e1a7d2678a2e5ff47fadbd682",
+  "source_benchmark_file": "benchmark_data_final.jsonl",
+  "download_evidence": "lean-e6/research/production-harness/full-release-2026-11-01/download.json",
+  "rows": [
+    {
+      "name": "FirstOrder.Language.schemaTruthStage_imp",
+      "input_line": 49,
+      "raw_row_sha256": "7e7c5038cb49c08cdc893e180ba7f218c6f507b9d6c7fb318e47ec77eaa73857"
+    },
+    {
+      "name": "RS.cechCount",
+      "input_line": 50,
+      "raw_row_sha256": "ac4b944a0ce23105346bdb8270c856b00929152bec2ec2d12ea73791781cd416"
+    }
+  ]
+}

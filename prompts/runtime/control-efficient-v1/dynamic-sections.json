@@ -1,0 +1,8 @@
+{
+  "compatibility_root_argument_per_version": " --project-root {{compatibility_project}}",
+  "compatibility_oracle_fallback_prefix": "\n  If the primary probe is unavailable, retry each supplied oracle checkout in order; pristine replay stays on the primary root:\n",
+  "compatibility_oracle_fallback_line_per_version": "  - `{{python}} {{tools_root}}/oracle_search.py aesop --task {{capsule}}/Task.json --project-root {{primary_project}} --fingerprint-registry {{capsule}}/environment-fingerprints.json --timeout 600 --oracle-project-root {{compatibility_project}} --candidate-output {{capsule}}/AesopCandidate.lean`",
+  "source_map_without_target_filename": "No project target filename is supplied; use the frozen imports and contexts in Candidate.lean.",
+  "source_visibility_notice_without_positive_start_line": "",
+  "source_search_root_line": "- {{source_search_label}}: `{{source_search_root}}`"
+}

@@ -58,12 +58,6 @@ If execution is interrupted, [resume the same run](docs/operations.md#resume-aft
 - Agents work from the supplied original proof and, on later passes, that proof's verified incumbent from the current run.
 - Host workers hold the OpenRouter key and provide proof-specific model relay access. Final exports receive independent Lean validation.
 
-## Publication snapshot
-
-This source snapshot is based on the submitted harness at revision `735528fea1dbf2a1c400a58b2f2e65e19422d811`. Publication cleanup removes machine-specific paths from historical baseline metadata and adds licensing and packaging notices. The refactoring implementation, prompts, benchmark rows, model configuration, and optimizer settings are unchanged.
-
-The cleanup changes the frozen source identity. Use this copy for fresh runs; resume existing submitted runs with their original release.
-
 ## License
 
 Original harness code is licensed under [MIT](LICENSE). Bundled third-party code and benchmark material retain their upstream licenses; see [third-party notices](THIRD_PARTY_NOTICES.md).
